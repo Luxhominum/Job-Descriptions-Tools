@@ -1,0 +1,379 @@
+[
+  {
+    "deptId": "dept-fat",
+    "deptName": "Finance, Accounting & Purchasing",
+    "title": "Finance Officer",
+    "tujuan": "Menyusun rencana kas, kebutuhan pembayaran, dan koordinasi anggaran agar Owner dapat mengambil keputusan keuangan berdasarkan proyeksi yang jelas.",
+    "tugas": [
+      "Menyusun rencana kas dan proyeksi kebutuhan dana.",
+      "Menyusun jadwal kebutuhan pembayaran berdasarkan data jatuh tempo.",
+      "Mengonsolidasikan rencana budget dan memantau realisasinya.",
+      "Menyampaikan risiko, pilihan prioritas, dan kebutuhan keputusan kepada Owner.",
+      "Tugas & Tanggung Jawab"
+    ]
+  },
+  {
+    "deptId": "dept-fat",
+    "deptName": "Finance, Accounting & Purchasing",
+    "title": "Accounting Officer",
+    "tujuan": "Menjaga pencatatan transaksi dan laporan keuangan PGE tetap lengkap, benar, tepat waktu, dan dapat ditelusuri ke dokumen sumber.",
+    "tugas": [
+      "Mencatat transaksi dan menjaga integritas data Accounting.",
+      "Menjalankan closing dan menyusun laporan keuangan bulanan.",
+      "Merekonsiliasi Accurate dengan bank, marketplace, Odoo, dan data pendukung.",
+      "Menjaga arsip Accounting dan daftar transaksi yang dokumennya belum lengkap.",
+      "Tugas & Tanggung Jawab"
+    ]
+  },
+  {
+    "deptId": "dept-fat",
+    "deptName": "Finance, Accounting & Purchasing",
+    "title": "Cost Control Officer",
+    "tujuan": "Memastikan HPP, margin, dan selisih biaya dapat dihitung serta dijelaskan sehingga keputusan produk, harga, promo, dan pengendalian biaya menggunakan dasar angka yang dapat ditelusuri.",
+    "tugas": [
+      "Menghitung dan meninjau HPP produk.",
+      "Menganalisis margin dan merekomendasikan batas harga minimum.",
+      "Menganalisis selisih biaya serta Budget vs Actual.",
+      "Memberikan rekomendasi pengendalian biaya untuk keputusan produk dan promo.",
+      "Tugas & Tanggung Jawab"
+    ]
+  },
+  {
+    "deptId": "dept-fat",
+    "deptName": "Finance, Accounting & Purchasing",
+    "title": "Staf Purchasing",
+    "tujuan": "Memproses pembelian berdasarkan permintaan yang telah lengkap dan disetujui, membandingkan pemasok serta harga, menjaga data pembelian di Accurate, dan memantau pesanan sampai barang diterima Gudang.",
+    "tugas": [
+      "Memeriksa kelengkapan dan persetujuan permintaan pembelian.",
+      "Membandingkan pemasok, harga, spesifikasi, dan waktu pengiriman.",
+      "Memproses administrasi pembelian dan memperbarui statusnya di Accurate.",
+      "Mengoordinasikan pesanan sampai barang diterima dan dokumen diserahkan.",
+      "Tugas & Tanggung Jawab"
+    ]
+  },
+  {
+    "deptId": "dept-ops",
+    "deptName": "Operasional & Produksi",
+    "title": "Kepala Operasional",
+    "tujuan": "Memastikan seluruh pekerjaan Operasional berjalan teratur dari produk siap diproduksi sampai barang siap dikirim, dengan urutan kerja yang jelas, mutu terjaga, dan masalah harian ditangani melalui satu jalur keputusan.",
+    "tugas": [
+      "Menetapkan prioritas dan urutan kerja Operasional.",
+      "Mengoordinasikan kesiapan produk, bahan, produksi, QC, Gudang, dan pengemasan.",
+      "Menentukan penanganan hambatan bahan, mesin, kapasitas, mutu, dan keterlambatan.",
+      "Memastikan hasil R&D siap diserahkan dan dijalankan oleh Produksi.",
+      "Tugas & Tanggung Jawab"
+    ]
+  },
+  {
+    "deptId": "dept-ops",
+    "deptName": "Operasional & Produksi",
+    "title": "Kepala Gudang",
+    "tujuan": "Menjaga bahan dan barang di Gudang tersimpan di lokasi yang benar, mudah ditemukan, sesuai catatan, dan siap mendukung produksi maupun penyiapan pesanan.",
+    "tugas": [
+      "Mengendalikan keteraturan dan keamanan penyimpanan di Gudang.",
+      "Menjaga ketepatan pergerakan dan hasil perhitungan stok.",
+      "Mengawasi penerimaan, penempatan, pengambilan, dan pengemasan barang.",
+      "Menangani selisih atau masalah fisik barang di Gudang.",
+      "Tugas & Tanggung Jawab"
+    ]
+  },
+  {
+    "deptId": "dept-ops",
+    "deptName": "Operasional & Produksi",
+    "title": "Staf Gudang",
+    "tujuan": "Menangani kegiatan fisik Gudang agar bahan dan barang diterima, ditempatkan, diambil, dikemas, dan dicatat dengan benar.",
+    "tugas": [
+      "Menerima, menempatkan, dan menjaga keteraturan bahan serta barang.",
+      "Mengambil dan mengemas pesanan sesuai permintaan yang lengkap.",
+      "Mencatat pergerakan barang dan mendukung stock opname.",
+      "Melaporkan kekurangan, kerusakan, atau ketidaksesuaian barang.",
+      "Tugas & Tanggung Jawab"
+    ]
+  },
+  {
+    "deptId": "dept-ops",
+    "deptName": "Operasional & Produksi",
+    "title": "Admin Operasional",
+    "tujuan": "Menjaga administrasi Operasional serta data produk, BOM, urutan kerja produksi tingkat umum, perkembangan produksi, dan hasil produksi tetap lengkap, rapi, dan dapat digunakan.",
+    "tugas": [
+      "Mengelola data produk dan BOM di Odoo.",
+      "Mengelola urutan kerja produksi tingkat umum dan catatan perkembangan produksi.",
+      "Mencatat hasil produksi, perbaikan ulang, dan perubahan data.",
+      "Menjaga kelengkapan administrasi serah terima antarproses.",
+      "Tugas & Tanggung Jawab"
+    ]
+  },
+  {
+    "deptId": "dept-ops",
+    "deptName": "Operasional & Produksi",
+    "title": "Admin Potong",
+    "tujuan": "Mengendalikan alur administrasi proses potong agar order yang telah diprioritaskan Kepala Operasional dikerjakan dalam urutan yang jelas, hasilnya tidak tercampur, dan serah terimanya tercatat lengkap.",
+    "tugas": [
+      "Menyiapkan perlengkapan, dokumen, label, dan informasi order potong.",
+      "Memilih serta menyusun urutan order potong dari daftar prioritas yang telah ditetapkan Kepala Operasional.",
+      "Mengoordinasikan alur kerja Operator Potong dan Helper Potong serta mengatur hasil potong.",
+      "Memeriksa kelengkapan administrasi hasil dan menyerahkannya kepada Admin Operasional.",
+      "Tugas & Tanggung Jawab"
+    ]
+  },
+  {
+    "deptId": "dept-ops",
+    "deptName": "Operasional & Produksi",
+    "title": "QC Produk Standar",
+    "tujuan": "Memastikan produk standar atau sederhana memenuhi ketentuan mutu sebelum diserahkan ke Gudang untuk penyiapan dan pengemasan.",
+    "tugas": [
+      "Memeriksa mutu produk standar atau sederhana.",
+      "Menetapkan status lolos, perbaikan ulang, atau ditahan.",
+      "Mencatat dan menyampaikan hasil pemeriksaan.",
+      "Memastikan produk yang diperbaiki diperiksa kembali.",
+      "Tugas & Tanggung Jawab"
+    ]
+  },
+  {
+    "deptId": "dept-ops",
+    "deptName": "Operasional & Produksi",
+    "title": "QC Produk Kompleks",
+    "tujuan": "Menjadi pemeriksa mutu akhir untuk produk kompleks, tas rumit, produk baru, atau produk yang memerlukan penilaian teknis konstruksi.",
+    "tugas": [
+      "Memeriksa mutu dan fungsi produk kompleks.",
+      "Menetapkan status lolos, perbaikan ulang, pembuatan ulang, atau ditahan.",
+      "Memberikan catatan masalah teknis yang jelas.",
+      "Memastikan hasil perbaikan atau pembuatan ulang diperiksa kembali.",
+      "Tugas & Tanggung Jawab"
+    ]
+  },
+  {
+    "deptId": "dept-ops",
+    "deptName": "Operasional & Produksi",
+    "title": "R&D Produk Jahit",
+    "tujuan": "Mengembangkan contoh produk jahit yang berfungsi baik, kuat, dapat dibuat secara konsisten, dan memiliki data teknis yang cukup untuk diserahkan ke Produksi.",
+    "tugas": [
+      "Menerjemahkan arahan produk menjadi pola dan konstruksi jahit.",
+      "Membuat serta menguji contoh produk jahit.",
+      "Memperbaiki masalah teknis pola atau konstruksi.",
+      "Menyiapkan data dan contoh untuk serah terima ke Produksi.",
+      "Tugas & Tanggung Jawab"
+    ]
+  },
+  {
+    "deptId": "dept-ops",
+    "deptName": "Operasional & Produksi",
+    "title": "R&D Produk Digital",
+    "tujuan": "Menghasilkan desain, mock-up, dan file visual yang menarik, benar ukuran serta posisinya, dapat diproduksi, dan siap dipakai sebagai acuan teknis maupun aset marketplace.",
+    "tugas": [
+      "Mengembangkan konsep visual dan mock-up produk.",
+      "Menyiapkan serta menguji file desain agar siap diproduksi.",
+      "Mengelola revisi, versi file, dan catatan perkembangan R&D digital.",
+      "Menangani kebutuhan desain pesanan custom yang datanya sudah lengkap.",
+      "Tugas & Tanggung Jawab"
+    ]
+  },
+  {
+    "deptId": "dept-ops",
+    "deptName": "Operasional & Produksi",
+    "title": "Operator Potong",
+    "tujuan": "Memotong bahan sesuai ukuran, pola, dan order yang dikoordinasikan Admin Potong, memeriksa mutu hasil sendiri, mencatat jumlah, lalu menyerahkan hasil kepada Helper Potong untuk ditata.",
+    "tugas": [
+      "Menyiapkan dan memeriksa bahan sebelum dipotong.",
+      "Memotong bahan sesuai ukuran, pola, dan pesanan.",
+      "Memeriksa, menghitung, dan mencatat hasil potong.",
+      "Menyerahkan hasil kepada Helper Potong untuk dikelompokkan dan ditata.",
+      "Tugas & Tanggung Jawab"
+    ]
+  },
+  {
+    "deptId": "dept-ops",
+    "deptName": "Operasional & Produksi",
+    "title": "Helper Potong",
+    "tujuan": "Membantu proses potong dan menata hasil sesuai arahan Admin Potong agar hasil tidak tercampur, mudah diperiksa, dan siap diserahterimakan.",
+    "tugas": [
+      "Membantu penyiapan dan penanganan bahan pada proses potong.",
+      "Mengelompokkan serta menata hasil potongan pada wadah atau rak sesuai arahan Admin Potong.",
+      "Tugas & Tanggung Jawab",
+      "Kegiatan utama yang dilakukan secara rutin atau sesuai kebutuhan.",
+      "Memastikan identitas pesanan atau produk terpasang dan hasil tidak tercampur."
+    ]
+  },
+  {
+    "deptId": "dept-ops",
+    "deptName": "Operasional & Produksi",
+    "title": "Operator Printing",
+    "tujuan": "Menghasilkan cetakan yang sesuai file, pesanan, dan standar kualitas, serta menyerahkan hasilnya dengan jelas ke proses Potong atau proses berikutnya.",
+    "tugas": [
+      "Menyiapkan file, bahan, dan mesin untuk proses printing.",
+      "Menjalankan proses printing sesuai urutan kerja.",
+      "Memeriksa dan menjaga kualitas hasil cetak.",
+      "Menyerahkan hasil cetak ke proses berikutnya.",
+      "Tugas & Tanggung Jawab"
+    ]
+  },
+  {
+    "deptId": "dept-ops",
+    "deptName": "Operasional & Produksi",
+    "title": "Operator Lanyard",
+    "tujuan": "Menyiapkan dan merakit lanyard beserta komponen kecilnya sampai selesai, diperiksa, dihitung, dan dikemas satuan sesuai data pekerjaan.",
+    "tugas": [
+      "Menyiapkan bahan, susunan file, dan gambar untuk produksi lanyard.",
+      "Memotong, memeriksa, dan menghitung bahan atau hasil lanyard.",
+      "Merakit lanyard dan memasang seluruh komponen kecil.",
+      "Melakukan finishing dan pengemasan satuan.",
+      "Tugas & Tanggung Jawab"
+    ]
+  },
+  {
+    "deptId": "dept-ops",
+    "deptName": "Operasional & Produksi",
+    "title": "Operator Press",
+    "tujuan": "Menjalankan proses press sesuai jenis produk dan urutan kerja, memeriksa hasil awal, serta menyerahkan hasil yang sesuai ke proses berikutnya.",
+    "tugas": [
+      "Menyiapkan alat dan bahan untuk proses press.",
+      "Menjalankan proses press sesuai pekerjaan.",
+      "Memeriksa dan memisahkan hasil yang tidak sesuai.",
+      "Menyerahkan hasil ke proses berikutnya.",
+      "Tugas & Tanggung Jawab"
+    ]
+  },
+  {
+    "deptId": "dept-ops",
+    "deptName": "Operasional & Produksi",
+    "title": "Operator Press High Frequency",
+    "tujuan": "Memproduksi stok dan pesanan pelanggan untuk produk passport, emboss, dan foil dengan mesin Press High Frequency sesuai instruksi, jumlah, dan standar hasil.",
+    "tugas": [
+      "Menjalankan produksi stok dan pesanan passport, emboss, serta foil.",
+      "Menjaga kesesuaian hasil, jumlah, dan identitas pesanan.",
+      "Tugas & Tanggung Jawab",
+      "Kegiatan utama yang dilakukan secara rutin atau sesuai kebutuhan.",
+      "Memeriksa instruksi, target stok atau pesanan, desain, bahan, dan komponen sebelum mulai."
+    ]
+  },
+  {
+    "deptId": "dept-ops",
+    "deptName": "Operasional & Produksi",
+    "title": "Operator Bordir",
+    "tujuan": "Menjalankan pekerjaan bordir yang dijadwalkan dan menyerahkan hasil yang telah diperiksa sendiri kepada proses berikutnya atau QC.",
+    "tugas": [
+      "Menyiapkan pekerjaan dan bahan bordir sesuai jadwal.",
+      "Menjalankan proses bordir sesuai instruksi.",
+      "Memeriksa dan memisahkan hasil yang bermasalah.",
+      "Menyerahkan hasil dan melaporkan perkembangan pekerjaan.",
+      "Tugas & Tanggung Jawab"
+    ]
+  },
+  {
+    "deptId": "dept-ops",
+    "deptName": "Operasional & Produksi",
+    "title": "Operator Jahit",
+    "tujuan": "Menjahit dan merakit produk sesuai contoh serta data teknis, dengan hasil yang kuat, rapi, berfungsi, dan siap diperiksa oleh fungsi QC.",
+    "tugas": [
+      "Menyiapkan bahan dan komponen jahit.",
+      "Menjahit dan merakit produk sesuai contoh atau data teknis.",
+      "Menjaga kekuatan, kerapian, bentuk, dan fungsi produk.",
+      "Mengerjakan perbaikan ulang dan mendukung pembuatan contoh produk.",
+      "Tugas & Tanggung Jawab"
+    ]
+  },
+  {
+    "deptId": "dept-ops",
+    "deptName": "Operasional & Produksi",
+    "title": "Pembantu Produksi",
+    "tujuan": "Membantu produksi tetap lancar dengan menyiapkan kebutuhan dasar dan mengerjakan tugas pendukung agar operator utama dapat fokus pada prosesnya.",
+    "tugas": [
+      "Menyiapkan bahan, komponen, dan alat bantu operator.",
+      "Memindahkan barang dalam proses antarbagian.",
+      "Membantu perapian produk dan pekerjaan pendukung produksi lainnya.",
+      "Menjaga kebersihan dan kerapian area kerja.",
+      "Tugas & Tanggung Jawab"
+    ]
+  },
+  {
+    "deptId": "dept-sales",
+    "deptName": "Sales & Marketing",
+    "title": "Team Leader Sales",
+    "tujuan": "Memimpin kegiatan penjualan, pelayanan pelanggan, pengelolaan pesanan, dan retensi pelanggan agar target penjualan tercapai serta janji kepada pelanggan sesuai kemampuan PGE.",
+    "tugas": [
+      "Menetapkan target, prioritas, PIC, dan tindak lanjut pekerjaan Sales.",
+      "Mengendalikan pelayanan pelanggan, pesanan, administrasi marketplace, dan tindak lanjut analisis Marketplace Specialist.",
+      "Meninjau data penjualan, keluhan, pelanggan, dan peluang pesanan ulang.",
+      "Mengambil keputusan atau eskalasi untuk pesanan dan masalah pelanggan di luar batas rutin.",
+      "Tugas & Tanggung Jawab"
+    ]
+  },
+  {
+    "deptId": "dept-sales",
+    "deptName": "Sales & Marketing",
+    "title": "Team Leader Marketing",
+    "tujuan": "Memimpin strategi pemasaran, media sosial, konten, kampanye, dan event agar brand PGE semakin dikenal serta mendukung kebutuhan penjualan.",
+    "tugas": [
+      "Menetapkan arah, prioritas, dan rencana kerja Marketing.",
+      "Memimpin kampanye, event, media sosial, dan kebutuhan konten.",
+      "Meninjau data audiens, jangkauan, interaksi, calon pelanggan, dan hasil kampanye.",
+      "Mengambil keputusan perbaikan pemasaran dan mengoordinasikan kebutuhan lintas fungsi.",
+      "Tugas & Tanggung Jawab"
+    ]
+  },
+  {
+    "deptId": "dept-sales",
+    "deptName": "Sales & Marketing",
+    "title": "Customer Retention & After-Sales Specialist",
+    "tujuan": "Menjaga kepercayaan pelanggan setelah pembelian, menyelesaikan keluhan rutin, mendorong pesanan ulang, serta mengubah pola keluhan dan masukan pelanggan menjadi perbaikan yang dapat digunakan PGE.",
+    "tugas": [
+      "Mengelola penyelesaian keluhan dan layanan setelah penjualan.",
+      "Menjaga hubungan pelanggan dan peluang pesanan ulang.",
+      "Menganalisis penyebab keluhan yang berulang.",
+      "Menyusun insight pelanggan dari keluhan, kebutuhan, dan pengalaman setelah pembelian.",
+      "Tugas & Tanggung Jawab"
+    ]
+  },
+  {
+    "deptId": "dept-sales",
+    "deptName": "Sales & Marketing",
+    "title": "Admin Sales & Marketplace",
+    "tujuan": "Menjadi pengelola utama pesan pelanggan, administrasi pesanan, dan pelaksanaan marketplace; memastikan data pesanan lengkap, perubahan yang disetujui diterapkan dengan benar, barang yang disiapkan Gudang diperiksa, serta resi ditangani.",
+    "tugas": [
+      "Mengelola komunikasi pelanggan dan administrasi pesanan.",
+      "Melaksanakan perubahan halaman produk dan program marketplace yang telah disetujui.",
+      "Mengelola pesanan custom standar dan meneruskan pesanan khusus.",
+      "Memeriksa pesanan yang sudah dikemas dan menangani resi.",
+      "Tugas & Tanggung Jawab"
+    ]
+  },
+  {
+    "deptId": "dept-sales",
+    "deptName": "Sales & Marketing",
+    "title": "Marketplace Specialist",
+    "tujuan": "Meningkatkan kinerja komersial seluruh marketplace aktif melalui analisis data, perencanaan optimasi halaman produk, pemantauan pasar, dan rekomendasi perbaikan yang dapat dijalankan oleh tim Sales.",
+    "tugas": [
+      "Menganalisis kinerja marketplace, produk, dan kampanye.",
+      "Menyusun rencana optimasi halaman produk dan peluang penjualan.",
+      "Menganalisis pesaing, harga pasar, tren, dan momentum musiman.",
+      "Menyusun rekomendasi serta laporan kinerja untuk Team Leader Sales.",
+      "Tugas & Tanggung Jawab"
+    ]
+  },
+  {
+    "deptId": "dept-sales",
+    "deptName": "Sales & Marketing",
+    "title": "Social Media Specialist",
+    "tujuan": "Menetapkan dan menjalankan strategi media sosial, mengarahkan kebutuhan konten, mengelola publikasi serta interaksi audiens, dan mengambil keputusan perbaikan berdasarkan hasil kinerja media sosial.",
+    "tugas": [
+      "Menetapkan strategi dan kalender media sosial.",
+      "Mengarahkan kebutuhan konten dan publikasi.",
+      "Mengelola interaksi audiens dan pengalihan calon pelanggan.",
+      "Menilai kinerja media sosial dan menentukan perbaikan rutin.",
+      "Tugas & Tanggung Jawab"
+    ]
+  },
+  {
+    "deptId": "dept-sales",
+    "deptName": "Sales & Marketing",
+    "title": "Content Creation Staff",
+    "tujuan": "Menghasilkan aset foto, video, dan visual yang siap digunakan untuk media sosial, marketplace, kampanye, dan acara sesuai arahan, kebutuhan teknis, serta batas waktu yang telah disepakati.",
+    "tugas": [
+      "Membuat foto, video, dan visual sesuai arahan.",
+      "Melakukan editing dan penyesuaian format aset.",
+      "Menjaga file, versi, ukuran, dan kualitas aset.",
+      "Menyerahkan aset tepat waktu dan memberi masukan teknis.",
+      "Tugas & Tanggung Jawab"
+    ]
+  }
+]

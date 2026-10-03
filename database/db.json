@@ -1,0 +1,2350 @@
+{
+  "updatedAt": "2026-09-26T04:20:36.752Z",
+  "departments": [
+    {
+      "id": "dept-hr",
+      "name": "Human Resources (HR)",
+      "color": "#8b5cf6",
+      "description": "Manajemen Talenta, Rekrutmen, Pengembangan SDM, Hubungan Industrial & Absensi"
+    },
+    {
+      "id": "dept-fat",
+      "name": "Finance, Accounting & Purchasing",
+      "color": "#0284c7",
+      "description": "Arus Kas, Pencatatan Akuntansi, Cost Control & HPP, dan Pengadaan Bahan Baku"
+    },
+    {
+      "id": "dept-ops",
+      "name": "Operasional & Produksi",
+      "color": "#059669",
+      "description": "Kesiapan Produk, Gudang, R&D, Potong, Cetak/Printing, Bordir, Jahit & QC"
+    },
+    {
+      "id": "dept-sales",
+      "name": "Sales",
+      "color": "#f59e0b",
+      "description": "Target Penjualan, Chat Pelanggan, Administrasi Marketplace, Pesanan Custom & Retensi"
+    },
+    {
+      "id": "dept-mkt",
+      "name": "Marketing",
+      "color": "#ec4899",
+      "description": "Strategi Branding, Kalender Kampanye Promosi, Media Sosial & Produksi Konten"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "pge-fat-01",
+      "code": "FAT-01",
+      "title": "Finance Officer",
+      "departmentId": "dept-fat",
+      "level": "Senior",
+      "summary": "Menyusun rencana kas, kebutuhan pembayaran, dan koordinasi anggaran agar Owner dapat mengambil keputusan keuangan berdasarkan proyeksi yang jelas.",
+      "keyResponsibilities": [
+        "Menyusun rencana kas harian/mingguan dan proyeksi kebutuhan dana",
+        "Menyusun jadwal kebutuhan pembayaran supplier berdasarkan data jatuh tempo",
+        "Mengonsolidasikan rencana budget dan memantau realisasi pengeluaran",
+        "Menyampaikan risiko likuiditas, pilihan prioritas, dan kebutuhan keputusan kepada Owner",
+        "Rekonsiliasi rekening koran dan mutasi bank secara berkala"
+      ],
+      "requiredSkills": [
+        "Cash Flow Management",
+        "Budgeting",
+        "Accurate Online",
+        "Analisis Likuiditas",
+        "Microsoft Excel"
+      ],
+      "defaultMainWorkloadPercent": 70,
+      "defaultSecondaryWorkloadPercent": 20,
+      "isShared": false,
+      "isCritical": true,
+      "colorTag": "#0284c7",
+      "createdAt": "2026-07-17T08:00:00Z",
+      "updatedAt": "2026-07-17T08:00:00Z",
+      "educationRequirement": "S1 / D4 Akuntansi, Keuangan, atau Manajemen Keuangan",
+      "experienceRequirement": "Min. 2-3 tahun di bidang Treasury, Finance & Manajemen Kas Perusahaan Retail/Grosir",
+      "technicalRequirements": [
+        "Cash Flow Forecasting",
+        "Budget Variance Analysis",
+        "Accurate Online / ERP",
+        "Microsoft Excel Lanjutan (VLOOKUP, Pivot, Modeling)",
+        "Rekonsiliasi Bank"
+      ],
+      "softSkills": [
+        "Integritas tinggi",
+        "Analitis & cermat terhadap angka",
+        "Komunikasi asertif ke pimpinan",
+        "Manajemen risiko likuiditas"
+      ],
+      "specialRequirements": "Bertanggung jawab penuh atas jadwal jatuh tempo pembayaran vendor dan penutupan kas mingguan"
+    },
+    {
+      "id": "pge-fat-02",
+      "code": "FAT-02",
+      "title": "Accounting Officer",
+      "departmentId": "dept-fat",
+      "level": "Senior",
+      "summary": "Menjaga pencatatan transaksi dan laporan keuangan PGE tetap lengkap, benar, tepat waktu, dan dapat ditelusuri ke dokumen sumber.",
+      "keyResponsibilities": [
+        "Mencatat transaksi harian dan menjaga integritas data Accounting",
+        "Menjalankan closing bulanan dan menyusun laporan keuangan lengkap di Accurate",
+        "Merekonsiliasi data Accurate dengan bank, marketplace, Odoo, dan data pendukung",
+        "Menjaga kelengkapan arsip bukti transaksi dan daftar transaksi belum lengkap",
+        "Pemeriksaan pajak dan kepatuhan administrasi perpajakan"
+      ],
+      "requiredSkills": [
+        "Financial Reporting",
+        "Accurate ERP",
+        "Jurnal & Buku Besar",
+        "Rekonsiliasi Bank",
+        "Pajak"
+      ],
+      "defaultMainWorkloadPercent": 70,
+      "defaultSecondaryWorkloadPercent": 20,
+      "isShared": false,
+      "isCritical": true,
+      "colorTag": "#0284c7",
+      "createdAt": "2026-07-17T08:00:00Z",
+      "updatedAt": "2026-07-17T08:00:00Z",
+      "educationRequirement": "Min. D3 / S1 Akuntansi atau Perpajakan",
+      "experienceRequirement": "Min. 2 tahun pengalaman menyusun Jurnal, Buku Besar, dan Laporan Keuangan Neraca/Laba Rugi",
+      "technicalRequirements": [
+        "Accurate ERP Accounting",
+        "Pencatatan Standar Akuntansi",
+        "Rekonsiliasi Marketplace & Bank",
+        "Administrasi Pajak (PPh & PPN)",
+        "Pengarsipan Dokumen Transaksi"
+      ],
+      "softSkills": [
+        "Ketelitian tingkat tinggi (Zero Error)",
+        "Objektivitas & independensi",
+        "Kemampuan investigasi selisih data"
+      ],
+      "specialRequirements": "Terbiasa bekerja dengan ritme closing bulanan ketat (maks. tanggal 5 setiap bulan)"
+    },
+    {
+      "id": "pge-fat-03",
+      "code": "FAT-03",
+      "title": "Cost Control Officer",
+      "departmentId": "dept-fat",
+      "level": "Senior",
+      "summary": "Memastikan HPP, margin, dan selisih biaya dapat dihitung serta dijelaskan sehingga keputusan produk, harga, promo, dan efisiensi menggunakan dasar angka akurat.",
+      "keyResponsibilities": [
+        "Menghitung dan meninjau HPP riil produk vs standar BOM di Odoo",
+        "Menganalisis margin keuntungan dan merekomendasikan batas harga jual minimum promo",
+        "Menganalisis selisih biaya produksi (Budget vs Actual) dan waste bahan baku",
+        "Memberikan rekomendasi pengendalian biaya untuk keputusan produk baru"
+      ],
+      "requiredSkills": [
+        "Cost Accounting",
+        "Analisis HPP & Margin",
+        "BOM Analysis",
+        "Odoo & Accurate",
+        "Audit Biaya"
+      ],
+      "defaultMainWorkloadPercent": 70,
+      "defaultSecondaryWorkloadPercent": 15,
+      "isShared": false,
+      "isCritical": true,
+      "colorTag": "#0284c7",
+      "createdAt": "2026-07-17T08:00:00Z",
+      "updatedAt": "2026-07-17T08:00:00Z",
+      "educationRequirement": "Min. D3 / S1 Akuntansi Manajemen, Manajemen Operasional, atau Teknik Industri",
+      "experienceRequirement": "Min. 2 tahun di bidang Analisis Biaya Produksi (HPP), Audit Stock/Inventory, atau Cost Accounting FMCG",
+      "technicalRequirements": [
+        "Perhitungan HPP Riil vs Standar",
+        "Bill of Materials (BOM) Analysis",
+        "Waste & Yield Ratio Monitoring",
+        "Odoo & Accurate Integration",
+        "Analisis Margin Penjualan"
+      ],
+      "softSkills": [
+        "Sikap kritis dan solutif",
+        "Negosiasi efisiensi dengan tim produksi",
+        "Orientasi penghematan biaya (Cost-Conscious)"
+      ],
+      "specialRequirements": "Rutin melakukan observasi langsung ke lini workshop untuk memverifikasi scrap dan pemborosan material"
+    },
+    {
+      "id": "pge-fat-04",
+      "code": "FAT-04",
+      "title": "Staf Purchasing",
+      "departmentId": "dept-fat",
+      "level": "Mid",
+      "summary": "Memproses pembelian berdasarkan permintaan yang disetujui, membandingkan pemasok serta harga, menjaga data pembelian di Accurate, dan memantau kedatangan barang.",
+      "keyResponsibilities": [
+        "Memeriksa kelengkapan dan persetujuan Surat Permintaan Pembelian",
+        "Membandingkan pemasok, harga, spesifikasi teknis, dan lead time pengiriman",
+        "Membuat Purchase Order (PO) dan memperbarui status pembelian di Accurate",
+        "Mengoordinasikan pesanan sampai barang diterima fisik oleh tim Gudang"
+      ],
+      "requiredSkills": [
+        "Vendor Negotiation",
+        "Procurement",
+        "Accurate Purchase",
+        "Price Comparison",
+        "Follow-up Supplier"
+      ],
+      "defaultMainWorkloadPercent": 70,
+      "defaultSecondaryWorkloadPercent": 15,
+      "isShared": false,
+      "isCritical": false,
+      "colorTag": "#0284c7",
+      "createdAt": "2026-07-17T08:00:00Z",
+      "updatedAt": "2026-07-17T08:00:00Z",
+      "educationRequirement": "Min. SMK / D3 / S1 Manajemen Logistik, Administrasi Bisnis, atau setara",
+      "experienceRequirement": "Min. 1 tahun di bidang pengadaan bahan baku konveksi/grosir (kain, benang, tinta, packaging)",
+      "technicalRequirements": [
+        "Purchase Order (PO) Management",
+        "Vendor Price Negotiation",
+        "Lead Time & Delivery Tracking",
+        "Input Odoo Purchasing",
+        "Sistem Evaluasi Supplier"
+      ],
+      "softSkills": [
+        "Keterampilan tawar-menawar",
+        "Responsif & proaktif mencari supplier alternatif",
+        "Ketahanan terhadap tekanan deadline"
+      ],
+      "specialRequirements": "Memiliki jaringan supplier bahan baku percetakan/tekstil dan siap kunjungan vendor bila diperlukan"
+    },
+    {
+      "id": "pge-ops-01",
+      "code": "OPS-01",
+      "title": "Kepala Operasional",
+      "departmentId": "dept-ops",
+      "level": "Lead",
+      "summary": "Memastikan seluruh pekerjaan Operasional berjalan teratur dari kesiapan produk sampai barang siap dikirim, dengan urutan kerja jelas, mutu terjaga, dan alur keputusan satu pintu.",
+      "keyResponsibilities": [
+        "Menetapkan urutan prioritas kerja produksi harian dan mingguan",
+        "Bertanggung jawab atas Daftar Induk Produk yang Sudah Disetujui (siap/perbaikan/tunda)",
+        "Mengoordinasikan bahan, jadwal produksi, QC, gudang, dan pengemasan",
+        "Menentukan penanganan hambatan mesin, bahan kurang, kapasitas, dan keterlambatan",
+        "Memastikan kesiapan hasil R&D sebelum diserahkan dan dijalankan massal oleh Produksi"
+      ],
+      "requiredSkills": [
+        "Production Planning (PPIC)",
+        "Decision Making",
+        "Manajemen Kapasitas",
+        "Leadership",
+        "Troubleshooting"
+      ],
+      "defaultMainWorkloadPercent": 75,
+      "defaultSecondaryWorkloadPercent": 20,
+      "isShared": false,
+      "isCritical": true,
+      "colorTag": "#059669",
+      "createdAt": "2026-07-17T08:00:00Z",
+      "updatedAt": "2026-07-17T08:00:00Z",
+      "educationRequirement": "Min. D3 / S1 Teknik Industri, Manajemen Operasional, atau bidang terkait",
+      "experienceRequirement": "Min. 3-5 tahun pengalaman supervisi produksi manufaktur/garmen skala menengah",
+      "technicalRequirements": [
+        "Production Planning & Inventory Control (PPIC)",
+        "Capacity & Bottleneck Management",
+        "SOP & Quality Assurance",
+        "Odoo Manufacturing / ERP",
+        "Penyusunan Logsheet Produksi"
+      ],
+      "softSkills": [
+        "Kepemimpinan tegas & mengayomi",
+        "Pengambilan keputusan cepat satu pintu",
+        "Penyelesaian konflik operasional",
+        "Komunikasi lintas divisi"
+      ],
+      "specialRequirements": "Bersedia stand-by saat peak season dan memegang otoritas keputusan perbaikan/tunda alur kerja"
+    },
+    {
+      "id": "pge-ops-02",
+      "code": "OPS-02",
+      "title": "Kepala Gudang",
+      "departmentId": "dept-ops",
+      "level": "Senior",
+      "summary": "Menjaga bahan dan barang di Gudang tersimpan di lokasi yang benar, mudah ditemukan, sesuai catatan stok, dan siap mendukung produksi maupun penyiapan pesanan.",
+      "keyResponsibilities": [
+        "Mengendalikan keteraturan, tata letak, dan keamanan penyimpanan di Gudang",
+        "Menjaga akurasi pergerakan barang dan memimpin stock opname berkala",
+        "Mengawasi penerimaan bahan, penempatan, picking barang, dan pengemasan",
+        "Menangani dan menginvestigasi selisih atau kerusakan fisik barang di Gudang"
+      ],
+      "requiredSkills": [
+        "Warehouse Management",
+        "Inventory Control",
+        "Stock Opname",
+        "5S Gudang",
+        "Safety"
+      ],
+      "defaultMainWorkloadPercent": 70,
+      "defaultSecondaryWorkloadPercent": 15,
+      "isShared": false,
+      "isCritical": true,
+      "colorTag": "#059669",
+      "createdAt": "2026-07-17T08:00:00Z",
+      "updatedAt": "2026-07-17T08:00:00Z",
+      "educationRequirement": "Min. SMA/SMK / D3 Logistik, Pergudangan, atau Manajemen",
+      "experienceRequirement": "Min. 2-3 tahun mengelola gudang bahan baku dan barang jadi (WMS)",
+      "technicalRequirements": [
+        "Warehouse Management System (WMS)",
+        "Manajemen Tata Letak Gudang (5R)",
+        "Metode FIFO / FEFO",
+        "Stock Opname & Rekonsiliasi Selisih",
+        "Penanganan Surat Jalan & Kartu Stok"
+      ],
+      "softSkills": [
+        "Ketegasan terhadap keamanan stok",
+        "Disiplin alur serah terima barang",
+        "Koordinasi tim lapangan"
+      ],
+      "specialRequirements": "Bertanggung jawab 100% atas akurasi fisik stok vs sistem dan kepatuhan K3 keselamatan kerja gudang"
+    },
+    {
+      "id": "pge-ops-03",
+      "code": "OPS-03",
+      "title": "Staf Gudang",
+      "departmentId": "dept-ops",
+      "level": "Mid",
+      "summary": "Menangani kegiatan fisik Gudang agar bahan dan barang diterima, ditempatkan, diambil, dikemas, dan dicatat dengan benar.",
+      "keyResponsibilities": [
+        "Menerima, membongkar, dan menempatkan bahan serta barang sesuai rak/lokasi",
+        "Mengambil (picking) dan mengemas pesanan sesuai instruksi kerja",
+        "Mencatat kartu stok barang masuk/keluar dan mendukung stock opname",
+        "Melaporkan kekurangan, kerusakan, atau ketidaksesuaian barang kepada Kepala Gudang"
+      ],
+      "requiredSkills": [
+        "Packing & Picking",
+        "Pencatatan Stok",
+        "Kerapian Gudang",
+        "Ketelitian Fisik"
+      ],
+      "defaultMainWorkloadPercent": 70,
+      "defaultSecondaryWorkloadPercent": 15,
+      "isShared": true,
+      "isCritical": false,
+      "colorTag": "#059669",
+      "createdAt": "2026-07-17T08:00:00Z",
+      "updatedAt": "2026-07-17T08:00:00Z",
+      "educationRequirement": "Min. SMA / SMK sederajat",
+      "experienceRequirement": "Pengalaman 1 tahun di bagian gudang ekspedisi / grosir / logistik",
+      "technicalRequirements": [
+        "Picking, Packing & Labeling Barang",
+        "Fisik Barang Datang & Pengecekan Nota",
+        "Bongkar Muat Barang Grosir",
+        "Pencatatan Kartu Stok Manual/Digital"
+      ],
+      "softSkills": [
+        "Ketahanan fisik prima",
+        "Kecepatan dan ketelitian menghitung barang",
+        "Jujur dan dapat dipercaya"
+      ],
+      "specialRequirements": "Mampu mengangkat beban kerja gudang hingga 20-25 kg dan bekerja dalam shift operasional"
+    },
+    {
+      "id": "pge-ops-04",
+      "code": "OPS-04",
+      "title": "Admin Operasional",
+      "departmentId": "dept-ops",
+      "level": "Mid",
+      "summary": "Menjaga administrasi Operasional, data produk, BOM di Odoo, urutan kerja produksi umum, logsheet, dan perkembangan hasil produksi tetap rapi dan terbarui.",
+      "keyResponsibilities": [
+        "Mengelola dan memperbarui data produk dan Bill of Materials (BOM) di Odoo",
+        "Mengelola urutan kerja produksi tingkat umum dan catatan logsheet di Google Sheet",
+        "Mencatat hasil produksi harian, perbaikan ulang (rework), dan perubahan data",
+        "Menjaga kelengkapan dokumen administrasi serah terima antarproses"
+      ],
+      "requiredSkills": [
+        "Odoo ERP",
+        "Google Sheets",
+        "Administrasi Produksi",
+        "Input BOM",
+        "Logsheet Tracking"
+      ],
+      "defaultMainWorkloadPercent": 70,
+      "defaultSecondaryWorkloadPercent": 15,
+      "isShared": false,
+      "isCritical": true,
+      "colorTag": "#059669",
+      "createdAt": "2026-07-17T08:00:00Z",
+      "updatedAt": "2026-07-17T08:00:00Z",
+      "educationRequirement": "Min. D3 / SMA/SMK Administrasi Perkantoran, Manajemen, atau Teknik Informatika",
+      "experienceRequirement": "Min. 1-2 tahun sebagai Admin Produksi / Operasional di perusahaan manufaktur/retail",
+      "technicalRequirements": [
+        "Odoo ERP (Modul Manufacturing & Inventory)",
+        "Google Sheets / Excel (VLOOKUP, IF, Pivot)",
+        "Input Bill of Materials (BOM)",
+        "Pembuatan SPK & Logsheet Produksi",
+        "Rekapitulasi Hasil Rework"
+      ],
+      "softSkills": [
+        "Ketelitian data tingkat tinggi (Zero Typing Error)",
+        "Terorganisir dalam pengarsipan",
+        "Koordinasi proaktif antar-operator"
+      ],
+      "specialRequirements": "Terbiasa mengelola antrean pekerjaan harian secara real-time dan memastikan data Odoo selalu up-to-date"
+    },
+    {
+      "id": "pge-ops-05",
+      "code": "OPS-05",
+      "title": "Admin Potong",
+      "departmentId": "dept-ops",
+      "level": "Mid",
+      "summary": "Mengendalikan alur administrasi proses potong agar order yang diprioritaskan Kepala Operasional dikerjakan berurutan, tidak tercampur, dan serah terimanya tercatat.",
+      "keyResponsibilities": [
+        "Menyiapkan perlengkapan, dokumen SPK potong, label, dan informasi pola order",
+        "Menyusun antrean order potong dari daftar prioritas Kepala Operasional",
+        "Mengoordinasikan alur kerja Operator Potong dan Helper Potong",
+        "Memeriksa kelengkapan administrasi hasil potong dan menyerahkannya ke Admin Operasional"
+      ],
+      "requiredSkills": [
+        "Administrasi Potong",
+        "Pola Potong",
+        "Penjadwalan Antrean",
+        "Labeling Order"
+      ],
+      "defaultMainWorkloadPercent": 65,
+      "defaultSecondaryWorkloadPercent": 15,
+      "isShared": false,
+      "isCritical": false,
+      "colorTag": "#059669",
+      "createdAt": "2026-07-17T08:00:00Z",
+      "updatedAt": "2026-07-17T08:00:00Z",
+      "educationRequirement": "Min. SMK / D3 Administrasi, Garment, atau setara",
+      "experienceRequirement": "Min. 1 tahun di administrasi alur potong garmen/tekstil",
+      "technicalRequirements": [
+        "Penyusunan SPK Potong",
+        "Penghitungan Kebutuhan Yard/Meter Bahan",
+        "Pemberian Nomor Bundle & Labeling Pola",
+        "Input Laporan Harian Potong ke Spreadsheet"
+      ],
+      "softSkills": [
+        "Kerapian dokumentasi pola",
+        "Ketelitian kode order",
+        "Komunikasi lancar dengan Operator Potong"
+      ],
+      "specialRequirements": "Memastikan tidak ada order yang tercampur atau tertukar sebelum diserahkan ke proses cetak/jahit"
+    },
+    {
+      "id": "pge-ops-06",
+      "code": "OPS-06",
+      "title": "QC Produk Standar",
+      "departmentId": "dept-ops",
+      "level": "Mid",
+      "summary": "Memastikan produk standar atau reguler memenuhi ketentuan mutu sebelum diserahkan ke Gudang untuk penyiapan dan pengemasan.",
+      "keyResponsibilities": [
+        "Memeriksa mutu jahitan, ukuran, warna, dan kebersihan produk standar",
+        "Menetapkan status lolos (pass), perbaikan ulang (rework), atau ditolak (reject)",
+        "Mencatat dan menyampaikan hasil pemeriksaan QC kepada penanggung jawab proses",
+        "Memeriksa kembali produk yang telah selesai diperbaiki"
+      ],
+      "requiredSkills": [
+        "Quality Control",
+        "Standar Mutu Produk",
+        "Ketelitian Detail",
+        "Pencatatan Defect"
+      ],
+      "defaultMainWorkloadPercent": 70,
+      "defaultSecondaryWorkloadPercent": 15,
+      "isShared": true,
+      "isCritical": true,
+      "colorTag": "#059669",
+      "createdAt": "2026-07-17T08:00:00Z",
+      "updatedAt": "2026-07-17T08:00:00Z",
+      "educationRequirement": "Min. SMA/SMK sederajat",
+      "experienceRequirement": "Min. 1 tahun di Quality Control garmen, sablon, atau percetakan",
+      "technicalRequirements": [
+        "Inspeksi Cacat Jahit & Noda Kain",
+        "Pengecekan Toleransi Ukuran (Size Spec)",
+        "Pencatatan Lembar Kendali Mutu",
+        "Pemisahan Produk Reject vs Rework"
+      ],
+      "softSkills": [
+        "Mata teliti dan detail",
+        "Objektivitas tanpa kompromi",
+        "Konsistensi menjaga standar"
+      ],
+      "specialRequirements": "Standar ketat terhadap produk lolos kirim; mampu menginspeksi ratusan unit per hari secara konsisten"
+    },
+    {
+      "id": "pge-ops-07",
+      "code": "OPS-07",
+      "title": "QC Produk Kompleks",
+      "departmentId": "dept-ops",
+      "level": "Senior",
+      "summary": "Menjadi pemeriksa mutu akhir untuk produk kompleks, tas rumit, produk baru hasil R&D, atau produk pesanan custom yang memerlukan penilaian teknis konstruksi.",
+      "keyResponsibilities": [
+        "Memeriksa mutu, kekuatan konstruksi, dan fungsi mekanis produk kompleks/custom",
+        "Menetapkan status lolos, perbaikan ulang, pembuatan ulang, atau ditahan",
+        "Memberikan catatan masalah teknis konstruksi yang jelas kepada tim R&D/Jahit",
+        "Memastikan hasil perbaikan produk custom diperiksa ulang secara ketat"
+      ],
+      "requiredSkills": [
+        "QC Konstruksi Tas",
+        "Penilaian Teknis",
+        "Evaluasi Sample Custom",
+        "Analisis Defect"
+      ],
+      "defaultMainWorkloadPercent": 65,
+      "defaultSecondaryWorkloadPercent": 20,
+      "isShared": false,
+      "isCritical": true,
+      "colorTag": "#059669",
+      "createdAt": "2026-07-17T08:00:00Z",
+      "updatedAt": "2026-07-17T08:00:00Z",
+      "educationRequirement": "Min. SMK Tekstil / D3 Desain Produk / Pengalaman Kerja Teruji",
+      "experienceRequirement": "Min. 2 tahun QC untuk produk pesanan custom, bordir bertingkat, atau sablon multi-layer",
+      "technicalRequirements": [
+        "Audit Finishing Produk Custom Rumit",
+        "Uji Ketahanan Sablon & Jahitan Sambung",
+        "Penyusunan Action Plan Penurunan Rework",
+        "Kalibrasi Standar Sampel Gold Master"
+      ],
+      "softSkills": [
+        "Komunikasi solutif ke tim produksi",
+        "Analisis akar penyebab cacat (Root Cause)",
+        "Ketegasan mutu"
+      ],
+      "specialRequirements": "Memiliki wewenang menghentikan alur jika ditemukan cacat massal pada batch produksi custom"
+    },
+    {
+      "id": "pge-ops-08",
+      "code": "OPS-08",
+      "title": "R&D Produk Jahit",
+      "departmentId": "dept-ops",
+      "level": "Senior",
+      "summary": "Mengembangkan contoh produk jahit yang berfungsi baik, kuat, dapat dibuat secara konsisten, dan memiliki data teknis lengkap untuk diserahkan ke Produksi.",
+      "keyResponsibilities": [
+        "Menerjemahkan arahan desain/produk menjadi pola presisi dan konstruksi jahit",
+        "Membuat dan menguji sample produk jahit (tas, pouch, dompet)",
+        "Memperbaiki masalah teknis pola atau alur jahit yang sulit diproduksi massal",
+        "Menyiapkan data spesifikasi teknis dan sample acuan untuk serah terima ke Produksi"
+      ],
+      "requiredSkills": [
+        "Pembuatan Pola Tas",
+        "Sample Making",
+        "Konstruksi Jahit",
+        "Uji Bahan Tekstil",
+        "Efisiensi Pola"
+      ],
+      "defaultMainWorkloadPercent": 70,
+      "defaultSecondaryWorkloadPercent": 20,
+      "isShared": false,
+      "isCritical": true,
+      "colorTag": "#059669",
+      "createdAt": "2026-07-17T08:00:00Z",
+      "updatedAt": "2026-07-17T08:00:00Z",
+      "educationRequirement": "Min. SMK Tata Busana / D3 Desain Mode / Pengalaman Pola Jahit",
+      "experienceRequirement": "Min. 2-3 tahun membuat pola, sampel baju/tas/pouch, dan teknik pecah pola konveksi",
+      "technicalRequirements": [
+        "Pembuatan Pola Master & Grading",
+        "Uji Efisiensi Pemotongan Bahan (Marker)",
+        "Penentuan Standar Waktu Jahit (SMV)",
+        "Penyusunan Tech Pack Produk"
+      ],
+      "softSkills": [
+        "Kreatif dan inovatif",
+        "Problem solving kesulitan jahit",
+        "Kemauan uji coba prototipe berulang kali"
+      ],
+      "specialRequirements": "Menghasilkan sampel yang siap diproduksi massal dengan efisiensi bahan dan jahitan tertinggi"
+    },
+    {
+      "id": "pge-ops-09",
+      "code": "OPS-09",
+      "title": "R&D Produk Digital",
+      "departmentId": "dept-ops",
+      "level": "Senior",
+      "summary": "Menghasilkan desain visual, mock-up, dan file setting cetak yang benar ukuran serta posisinya, siap diproduksi, dan menjadi acuan teknis maupun aset marketplace.",
+      "keyResponsibilities": [
+        "Mengembangkan konsep visual dan mock-up produk baru",
+        "Menyiapkan dan menguji file cetak digital (sublim/lanyard/DTF) agar presisi saat diproduksi",
+        "Mengelola versi file desain, revisi, dan catatan perkembangan R&D digital",
+        "Menangani kebutuhan setting file teknis untuk pesanan custom (misal custom Xerox)"
+      ],
+      "requiredSkills": [
+        "Adobe Illustrator / Photoshop",
+        "Setting File Cetak",
+        "Mockup Produk",
+        "Color Separation",
+        "Digital Design"
+      ],
+      "defaultMainWorkloadPercent": 70,
+      "defaultSecondaryWorkloadPercent": 20,
+      "isShared": false,
+      "isCritical": true,
+      "colorTag": "#059669",
+      "createdAt": "2026-07-17T08:00:00Z",
+      "updatedAt": "2026-07-17T08:00:00Z",
+      "educationRequirement": "Min. D3 / S1 Desain Komunikasi Visual (DKV), Multimedia, atau Desain Grafis",
+      "experienceRequirement": "Min. 2 tahun pembuatan layout desain cetak, vector apparel, dan mockup produk digital",
+      "technicalRequirements": [
+        "Adobe Illustrator & Photoshop",
+        "CorelDRAW",
+        "Color Separation Sablon/Printing",
+        "Mockup 3D / Katalog Digital",
+        "Penyiapan File Siap Cetak (Rip File)"
+      ],
+      "softSkills": [
+        "Rasa estetika tinggi",
+        "Kecepatan eksekusi desain",
+        "Responsif terhadap tren pasar visual"
+      ],
+      "specialRequirements": "Memahami batasan mesin cetak (resolusi, gamut warna CMYK vs RGB, dan media bahan)"
+    },
+    {
+      "id": "pge-ops-10",
+      "code": "OPS-10",
+      "title": "Operator Potong",
+      "departmentId": "dept-ops",
+      "level": "Mid",
+      "summary": "Memotong bahan sesuai ukuran, pola, dan order dari Admin Potong, memeriksa mutu hasil potong sendiri, mencatat jumlah, dan menyerahkan hasil ke Helper.",
+      "keyResponsibilities": [
+        "Menyiapkan dan memeriksa kondisi bahan kain/kulit sintetis sebelum dipotong",
+        "Memotong bahan presisi sesuai pola mal, pisau plong, atau mesin potong",
+        "Memeriksa, menghitung, dan mencatat kuantitas hasil potongan",
+        "Menyerahkan hasil potong kepada Helper Potong untuk dikelompokkan"
+      ],
+      "requiredSkills": [
+        "Mesin Potong Kain",
+        "Pembacaan Pola",
+        "Ketelitian Ukuran",
+        "Pemeliharaan Pisau"
+      ],
+      "defaultMainWorkloadPercent": 70,
+      "defaultSecondaryWorkloadPercent": 15,
+      "isShared": true,
+      "isCritical": false,
+      "colorTag": "#059669",
+      "createdAt": "2026-07-17T08:00:00Z",
+      "updatedAt": "2026-07-17T08:00:00Z",
+      "educationRequirement": "Min. SMA/SMK",
+      "experienceRequirement": "Min. 1-2 tahun mengoperasikan mesin potong kain vertikal (Straight Knife) atau laser cutting",
+      "technicalRequirements": [
+        "Pengoperasian Mesin Potong Kain",
+        "Gelar Bahan Sesuai Pola / Marker",
+        "Kerapian Potongan Sisi & Notch",
+        "Pemeliharaan Pisau Mesin Potong"
+      ],
+      "softSkills": [
+        "Konsentrasi tinggi saat bekerja",
+        "Kepatuhan penuh K3 keselamatan tangan",
+        "Ketahanan fisik"
+      ],
+      "specialRequirements": "Wajib menggunakan sarung tangan pelindung baja (safety glove) dan menjaga toleransi potong < 2mm"
+    },
+    {
+      "id": "pge-ops-11",
+      "code": "OPS-11",
+      "title": "Helper Potong",
+      "departmentId": "dept-ops",
+      "level": "Entry",
+      "summary": "Membantu proses potong dan menata hasil sesuai arahan Admin Potong agar hasil tidak tercampur, mudah diperiksa, dan siap diserahterimakan.",
+      "keyResponsibilities": [
+        "Membantu penyiapan dan penarikan/penggelaran bahan pada meja potong",
+        "Mengelompokkan, mengikat, dan menata hasil potongan pada wadah/rak",
+        "Memastikan label identitas SPK/pesanan terpasang dan hasil potongan tidak tertukar",
+        "Menjaga kebersihan sisa perca bahan di area meja potong"
+      ],
+      "requiredSkills": [
+        "Penataan Komponen",
+        "Labeling",
+        "Pekerjaan Fisik Ringan",
+        "Kerapian"
+      ],
+      "defaultMainWorkloadPercent": 70,
+      "defaultSecondaryWorkloadPercent": 15,
+      "isShared": true,
+      "isCritical": false,
+      "colorTag": "#059669",
+      "createdAt": "2026-07-17T08:00:00Z",
+      "updatedAt": "2026-07-17T08:00:00Z",
+      "educationRequirement": "Min. SMA/SMK sederajat",
+      "experienceRequirement": "Fresh graduate / pengalaman 6 bulan di konveksi",
+      "technicalRequirements": [
+        "Penggelaran Kain Manual/Mesin",
+        "Pemberian Nomor Bundle & Ikat Potongan",
+        "Pembersihan Area Kerja Potong",
+        "Bantu Pemindahan Roll Bahan"
+      ],
+      "softSkills": [
+        "Cekatan dan gesit",
+        "Kemauan belajar teknik potong",
+        "Disiplin waktu"
+      ],
+      "specialRequirements": "Kesiapan fisik membantu penggelaran roll kain panjang dan pengikatan bundle"
+    },
+    {
+      "id": "pge-ops-12",
+      "code": "OPS-12",
+      "title": "Operator Printing",
+      "departmentId": "dept-ops",
+      "level": "Mid",
+      "summary": "Menghasilkan cetakan sublimasi/digital yang sesuai file, pesanan, dan standar kualitas warna, serta menyerahkan hasilnya ke proses berikutnya.",
+      "keyResponsibilities": [
+        "Menyiapkan file cetak, kertas transfer, tinta, dan mesin printer sublimasi",
+        "Menjalankan proses printing sesuai urutan antrean kerja",
+        "Memeriksa dan menjaga konsistensi ketajaman warna cetak",
+        "Menyerahkan hasil cetak ke proses press/potong"
+      ],
+      "requiredSkills": [
+        "Mesin Printer Sublim/DTF",
+        "Kalibrasi Warna",
+        "Maintenance Head Printer",
+        "Setting RIP Software"
+      ],
+      "defaultMainWorkloadPercent": 70,
+      "defaultSecondaryWorkloadPercent": 15,
+      "isShared": true,
+      "isCritical": false,
+      "colorTag": "#059669",
+      "createdAt": "2026-07-17T08:00:00Z",
+      "updatedAt": "2026-07-17T08:00:00Z",
+      "educationRequirement": "Min. SMK Grafika / Mesin / sederajat",
+      "experienceRequirement": "Min. 1-2 tahun mengoperasikan mesin digital printing tekstil / DTF / Sublimasi",
+      "technicalRequirements": [
+        "Pengoperasian Mesin Cetak DTF / Sublim",
+        "Pengaturan Profil Warna & RIP Software",
+        "Perawatan Harian Print Head & Tinta",
+        "Pengeringan & Curing Hasil Cetak"
+      ],
+      "softSkills": [
+        "Ketelitian warna (Color Matching)",
+        "Disiplin pemeliharaan mesin",
+        "Ketahanan kerja target harian"
+      ],
+      "specialRequirements": "Siap bekerja di lingkungan mesin cetak bertemperatur hangat dan mematuhi jadwal cleaning berkala"
+    },
+    {
+      "id": "pge-ops-13",
+      "code": "OPS-13",
+      "title": "Operator Lanyard",
+      "departmentId": "dept-ops",
+      "level": "Mid",
+      "summary": "Menyiapkan dan merakit lanyard beserta komponen kecilnya sampai selesai, diperiksa, dihitung, dan dikemas satuan sesuai data pekerjaan.",
+      "keyResponsibilities": [
+        "Menyiapkan bahan tali lanyard, paku keling, kait, dan stoper",
+        "Memotong, memeriksa, dan menghitung kuantitas tali lanyard",
+        "Merakit lanyard, press stoper, dan memasang seluruh aksesoris",
+        "Melakukan finishing, pemeriksaan kelayakan, dan pengemasan satuan"
+      ],
+      "requiredSkills": [
+        "Perakitan Lanyard",
+        "Pemasangan Aksesoris",
+        "Finishing & Packing",
+        "Ketelitian Kuantitas"
+      ],
+      "defaultMainWorkloadPercent": 70,
+      "defaultSecondaryWorkloadPercent": 15,
+      "isShared": true,
+      "isCritical": false,
+      "colorTag": "#059669",
+      "createdAt": "2026-07-17T08:00:00Z",
+      "updatedAt": "2026-07-17T08:00:00Z",
+      "educationRequirement": "Min. SMA/SMK sederajat",
+      "experienceRequirement": "Min. 1 tahun di produksi tali lanyard, gantungan kunci, atau aksesoris tali",
+      "technicalRequirements": [
+        "Pemasangan Kait, Stopper, & Finishing Lanyard",
+        "Press Transfer Sablon Tali",
+        "Pengukuran Presisi Panjang Tali",
+        "Packing Satuan Rapi"
+      ],
+      "softSkills": [
+        "Keterampilan jari (Hand Dexterity)",
+        "Kecepatan perakitan unit per menit",
+        "Ketelitian detail"
+      ],
+      "specialRequirements": "Mampu memenuhi target output minimal harian tanpa cacat aksesoris terbalik"
+    },
+    {
+      "id": "pge-ops-14",
+      "code": "OPS-14",
+      "title": "Operator Press",
+      "departmentId": "dept-ops",
+      "level": "Mid",
+      "summary": "Menjalankan proses heat press transfer sesuai jenis produk dan urutan kerja, memeriksa hasil awal, serta menyerahkan hasil ke proses lanjutan.",
+      "keyResponsibilities": [
+        "Menyiapkan mesin heat press roll/flat dan mengatur suhu serta tekanan yang tepat",
+        "Menjalankan proses transfer panas gambar ke kain/bahan",
+        "Memeriksa hasil awal (suhu/warna gosong/bayang) dan memisahkan cacat",
+        "Menyerahkan hasil press yang lolos ke bagian potong atau jahit"
+      ],
+      "requiredSkills": [
+        "Mesin Heat Press",
+        "Pengaturan Suhu & Waktu",
+        "Pemeriksaan Transfer Warna"
+      ],
+      "defaultMainWorkloadPercent": 70,
+      "defaultSecondaryWorkloadPercent": 15,
+      "isShared": true,
+      "isCritical": false,
+      "colorTag": "#059669",
+      "createdAt": "2026-07-17T08:00:00Z",
+      "updatedAt": "2026-07-17T08:00:00Z",
+      "educationRequirement": "Min. SMA/SMK sederajat",
+      "experienceRequirement": "Min. 1 tahun pengoperasian mesin heat press kain/sablon",
+      "technicalRequirements": [
+        "Pengaturan Suhu, Waktu, & Tekanan Heat Press",
+        "Pencegahan Gosong & Bayang (Ghosting)",
+        "Peletakan Presisi Posisi Sablon",
+        "Perawatan Teflon & Mat"
+      ],
+      "softSkills": [
+        "Konsistensi ritme kerja",
+        "Kewaspadaan terhadap permukaan panas",
+        "Disiplin SOP"
+      ],
+      "specialRequirements": "Kepatuhan penuh pada K3 suhu tinggi dan ketelitian posisi cetak di atas pakaian/tas"
+    },
+    {
+      "id": "pge-ops-15",
+      "code": "OPS-15",
+      "title": "Operator Press High Frequency",
+      "departmentId": "dept-ops",
+      "level": "Mid",
+      "summary": "Memproduksi stok dan pesanan pelanggan untuk produk passport cover, emboss, dan foil dengan mesin Press HF sesuai standar hasil.",
+      "keyResponsibilities": [
+        "Menyiapkan cetakan matras emboss/foil dan bahan kulit sintetis/mika",
+        "Menjalankan mesin High Frequency Welding untuk pengelasan/emboss",
+        "Menjaga kesesuaian hasil lekukan, kedalaman emboss, dan kerapian tepi",
+        "Memeriksa kesesuaian jumlah dan identitas pesanan SPK"
+      ],
+      "requiredSkills": [
+        "Mesin High Frequency (HF)",
+        "Embossing & Foil",
+        "Setting Matras",
+        "Ketelitian Material"
+      ],
+      "defaultMainWorkloadPercent": 70,
+      "defaultSecondaryWorkloadPercent": 15,
+      "isShared": true,
+      "isCritical": false,
+      "colorTag": "#059669",
+      "createdAt": "2026-07-17T08:00:00Z",
+      "updatedAt": "2026-07-17T08:00:00Z",
+      "educationRequirement": "Min. SMK Listrik / Mesin / sederajat",
+      "experienceRequirement": "Min. 1-2 tahun pengoperasian mesin press HF (High Frequency) / Emboss thermoforming",
+      "technicalRequirements": [
+        "Mesin High Frequency Welding",
+        "Penyetelan Arus Daya & Moulding Cetakan",
+        "Pencegahan Overheating Material Kulit Sintetis/PVC",
+        "Pemeriksaan Kekuatan Rekatan"
+      ],
+      "softSkills": [
+        "Pemahaman teknis mekanik dasar",
+        "Ketelitian setting mesin",
+        "Kehati-hatian operasional"
+      ],
+      "specialRequirements": "Kepatuhan prosedur keselamatan kelistrikan tegangan tinggi dan pemeliharaan cetakan mould"
+    },
+    {
+      "id": "pge-ops-16",
+      "code": "OPS-16",
+      "title": "Operator Bordir",
+      "departmentId": "dept-ops",
+      "level": "Mid",
+      "summary": "Menjalankan pekerjaan bordir komputer yang dijadwalkan dan menyerahkan hasil yang telah diperiksa sendiri ke QC atau proses lanjutan.",
+      "keyResponsibilities": [
+        "Menyiapkan file punch bordir (DST), benang warna, dan bahan kain",
+        "Memasang kain pada frame/hoop bordir dengan tegangan yang pas",
+        "Menjalankan mesin bordir komputer dan menangani benang putus",
+        "Membersihkan sisa benang (trimming) dan memeriksa kerapian bordir"
+      ],
+      "requiredSkills": [
+        "Mesin Bordir Komputer",
+        "Framing Kain",
+        "Penggantian Benang",
+        "Trimming Bordir"
+      ],
+      "defaultMainWorkloadPercent": 70,
+      "defaultSecondaryWorkloadPercent": 15,
+      "isShared": true,
+      "isCritical": false,
+      "colorTag": "#059669",
+      "createdAt": "2026-07-17T08:00:00Z",
+      "updatedAt": "2026-07-17T08:00:00Z",
+      "educationRequirement": "Min. SMK / SMA sederajat",
+      "experienceRequirement": "Min. 1-2 tahun mengoperasikan mesin bordir komputer multi-head (Barudan/Tajima/sejenisnya)",
+      "technicalRequirements": [
+        "Setting Mesin Bordir Komputer",
+        "Penggantian Jarum, Spool, & Benang Warna",
+        "Penanganan Benang Putus Cepat",
+        "Penarikan File Bordir (DST/PES) ke Mesin"
+      ],
+      "softSkills": [
+        "Ketelitian mencocokkan kode benang",
+        "Kecepatan re-threading",
+        "Konsentrasi tinggi"
+      ],
+      "specialRequirements": "Mampu mengawasi jalannya bordir multi-head secara serentak dan mencegah cacat kain berkerut"
+    },
+    {
+      "id": "pge-ops-17",
+      "code": "OPS-17",
+      "title": "Operator Jahit",
+      "departmentId": "dept-ops",
+      "level": "Mid",
+      "summary": "Menjahit dan merakit produk tas/aksesoris sesuai contoh sample serta data teknis, dengan hasil kuat, rapi, dan siap diperiksa oleh QC.",
+      "keyResponsibilities": [
+        "Menyiapkan jarum, benang, corong, dan komponen potongan jahit",
+        "Menjahit dan merakit bagian tas sesuai instruksi kerja atau sample acuan",
+        "Menjaga kekuatan jahitan, kerapian jahitan stik, dan bentuk simetris",
+        "Mengerjakan perbaikan ulang (rework) jika ditemukan defect oleh QC"
+      ],
+      "requiredSkills": [
+        "Operasional Mesin Jahit High-Speed",
+        "Jahit Tas & Pouch",
+        "Pemasangan Ritsleting",
+        "Presisi Jahit"
+      ],
+      "defaultMainWorkloadPercent": 70,
+      "defaultSecondaryWorkloadPercent": 15,
+      "isShared": true,
+      "isCritical": false,
+      "colorTag": "#059669",
+      "createdAt": "2026-07-17T08:00:00Z",
+      "updatedAt": "2026-07-17T08:00:00Z",
+      "educationRequirement": "Min. SMA/SMK sederajat / kursus menjahit",
+      "experienceRequirement": "Min. 1-2 tahun menjahit cepat (High Speed Sewing Machine) di konveksi/garmen",
+      "technicalRequirements": [
+        "Mesin Jahit Jarum 1 High Speed",
+        "Mesin Obras & Overdeck",
+        "Teknik Menjahit Lurus, Melengkung, & Pasang Resleting",
+        "Pemasangan Label Merek Rapi"
+      ],
+      "softSkills": [
+        "Kerapian stik jahitan",
+        "Kecepatan kerja (Output Pieces/Jam)",
+        "Ketelitian kampuh"
+      ],
+      "specialRequirements": "Konsistensi jarak stik jahitan (minimal 8-10 stik per inch) dan menjaga kebersihan pakaian dari minyak mesin"
+    },
+    {
+      "id": "pge-ops-18",
+      "code": "OPS-18",
+      "title": "Pembantu Produksi",
+      "departmentId": "dept-ops",
+      "level": "Entry",
+      "summary": "Membantu produksi tetap lancar dengan menyiapkan kebutuhan dasar, merapikan benang, dan memindahkan barang dalam proses antarbagian.",
+      "keyResponsibilities": [
+        "Menyiapkan bahan, aksesoris, dan alat bantu bagi operator utama",
+        "Memindahkan barang dalam proses (WIP) antarstasiun kerja",
+        "Membantu buang benang (snip thread) dan pembersihan awal produk",
+        "Menjaga kebersihan dan keteraturan area kerja produksi"
+      ],
+      "requiredSkills": [
+        "Buang Benang",
+        "Pemindahan Barang WIP",
+        "Dukungan Produksi",
+        "5S"
+      ],
+      "defaultMainWorkloadPercent": 70,
+      "defaultSecondaryWorkloadPercent": 15,
+      "isShared": true,
+      "isCritical": false,
+      "colorTag": "#059669",
+      "createdAt": "2026-07-17T08:00:00Z",
+      "updatedAt": "2026-07-17T08:00:00Z",
+      "educationRequirement": "Min. SMA/SMK sederajat",
+      "experienceRequirement": "Fresh graduate terbuka atau pengalaman helper umum",
+      "technicalRequirements": [
+        "Trimming Sisa Benang (Buang Benang)",
+        "Lipat, Gosok Uap, & Packaging Plastik",
+        "Distribusi Antar-Meja Operator",
+        "Pembersihan Area Produksi"
+      ],
+      "softSkills": [
+        "Rajin, jujur, dan tanggap",
+        "Kerja sama tim",
+        "Kecepatan tangan"
+      ],
+      "specialRequirements": "Kesiapan mobilitas fisik di ruang workshop dan menjaga kerapian susunan barang siap QC"
+    },
+    {
+      "id": "pge-sales-01",
+      "code": "SALES-01",
+      "title": "Team Leader Sales",
+      "departmentId": "dept-sales",
+      "level": "Lead",
+      "summary": "Memimpin kegiatan penjualan, pelayanan pelanggan, pengelolaan pesanan, dan koordinasi pesanan custom agar target penjualan tercapai dan janji pelanggan terpenuhi.",
+      "keyResponsibilities": [
+        "Menetapkan target harian, prioritas follow-up, dan PIC pekerjaan tim Sales",
+        "Mengendalikan pelayanan chat pelanggan, pesanan marketplace, dan SLA respon",
+        "Meninjau laporan penjualan, keluhan pelanggan, dan tindak lanjut rekomendasi analitis",
+        "Mengambil keputusan eskalasi untuk pesanan custom khusus dan diskon bernilai besar"
+      ],
+      "requiredSkills": [
+        "Sales Leadership",
+        "Closing Pesanan Custom",
+        "Manajemen Marketplace",
+        "Customer Service SLA"
+      ],
+      "defaultMainWorkloadPercent": 75,
+      "defaultSecondaryWorkloadPercent": 20,
+      "isShared": false,
+      "isCritical": true,
+      "colorTag": "#f59e0b",
+      "createdAt": "2026-07-27T08:00:00Z",
+      "updatedAt": "2026-07-27T08:00:00Z",
+      "educationRequirement": "Min. D3 / S1 Manajemen, Komunikasi, Pemasaran, atau setara",
+      "experienceRequirement": "Min. 2-3 tahun di bidang Sales B2B / B2C / Retail Fashion & Custom Merchandise",
+      "technicalRequirements": [
+        "Sales Leadership & KPI Monitoring",
+        "Closing Pesanan Custom Bernilai Tinggi",
+        "CRM & Manajemen WhatsApp Business",
+        "Penanganan Komplain & Escalation Policy",
+        "Penyusunan Target Penjualan Tim"
+      ],
+      "softSkills": [
+        "Kemampuan memotivasi tim",
+        "Negosiasi tingkat lanjut",
+        "Kecerdasan emosional tinggi",
+        "Orientasi target omzet"
+      ],
+      "specialRequirements": "Memiliki jam terbang closing deal besar dan siap membimbing tim sales mencapai target bulanan"
+    },
+    {
+      "id": "pge-sales-02",
+      "code": "SALES-02",
+      "title": "Customer Retention & After-Sales Specialist",
+      "departmentId": "dept-sales",
+      "level": "Senior",
+      "summary": "Menjaga kepuasan pelanggan setelah pembelian, menyelesaikan keluhan, mendorong repeat order B2B, dan mengubah masukan pelanggan menjadi perbaikan sistemik.",
+      "keyResponsibilities": [
+        "Mengelola penanganan keluhan pelanggan dan ulasan marketplace bintang 1-3",
+        "Menjaga hubungan pelanggan grosir/instansi dan memfollow-up peluang repeat order",
+        "Menganalisis pola penyebab keluhan yang berulang bersama tim Operasional/QC",
+        "Menyusun insight pelanggan dan kepuasan layanan setelah pembelian"
+      ],
+      "requiredSkills": [
+        "Complaint Handling",
+        "Customer Retention",
+        "CRM Database",
+        "Negosiasi Solutif",
+        "Analisis Feedback"
+      ],
+      "defaultMainWorkloadPercent": 70,
+      "defaultSecondaryWorkloadPercent": 15,
+      "isShared": false,
+      "isCritical": true,
+      "colorTag": "#f59e0b",
+      "createdAt": "2026-07-27T08:00:00Z",
+      "updatedAt": "2026-07-27T08:00:00Z",
+      "educationRequirement": "Min. D3 / S1 Komunikasi, Hubungan Masyarakat, atau Manajemen",
+      "experienceRequirement": "Min. 1-2 tahun di bidang Customer Care, CRM, atau After-Sales Service",
+      "technicalRequirements": [
+        "Sistem CRM Pelanggan",
+        "Program Retensi & Repeat Order",
+        "Resolusi Keluhan Pelanggan Berisiko",
+        "Survey Kepuasan Pelanggan (CSAT / NPS)",
+        "Follow Up Penawaran Khusus"
+      ],
+      "softSkills": [
+        "Empati tinggi & keramahan tulus",
+        "Kemampuan negosiasi solusi win-win",
+        "Kesabaran dalam krisis"
+      ],
+      "specialRequirements": "Fokus menjaga reputasi kepuasan toko dan mengubah komplain menjadi peluang pesanan berulang"
+    },
+    {
+      "id": "pge-sales-03",
+      "code": "SALES-03",
+      "title": "Admin Sales & Marketplace",
+      "departmentId": "dept-sales",
+      "level": "Mid",
+      "summary": "Mengelola chat pelanggan marketplace dan WhatsApp, administrasi pesanan, pembuatan label pesanan, koordinasi pesanan custom standar, dan penanganan resi pengiriman.",
+      "keyResponsibilities": [
+        "Menjawab chat pelanggan marketplace (Shopee, Tokopedia, Lazada, WA) dengan cepat",
+        "Memproses pesanan masuk, mencetak resi pengiriman, dan meneruskan ke Gudang",
+        "Mengelola pesanan custom standar dan memastikan data spesifikasi lengkap",
+        "Memeriksa pesanan yang sudah selesai dikemas oleh Gudang sebelum diserahkan ke kurir"
+      ],
+      "requiredSkills": [
+        "Chat Handling Marketplace",
+        "Proses Resi Pesanan",
+        "Komunikasi Pelanggan",
+        "Ketelitian Data Order"
+      ],
+      "defaultMainWorkloadPercent": 70,
+      "defaultSecondaryWorkloadPercent": 15,
+      "isShared": true,
+      "isCritical": true,
+      "colorTag": "#f59e0b",
+      "createdAt": "2026-07-27T08:00:00Z",
+      "updatedAt": "2026-07-27T08:00:00Z",
+      "educationRequirement": "Min. SMA/SMK / D3 Administrasi Bisnis, Pemasaran, atau setara",
+      "experienceRequirement": "Min. 1 tahun sebagai Admin Tokopedia / Shopee / TikTok Shop / WhatsApp Sales",
+      "technicalRequirements": [
+        "Fast Respon Chat Marketplace & WhatsApp",
+        "Pengelolaan Pesanan & Cetak Resi Label",
+        "Koordinasi Jadwal Kirim dengan Gudang",
+        "Input Data Order ke Odoo / Spreadsheet",
+        "SOP Pelayanan Pelanggan Ramah"
+      ],
+      "softSkills": [
+        "Kemampuan mengetik cepat & akurat",
+        "Bahasa persuasif ramah",
+        "Manajemen waktu pesanan ekspres"
+      ],
+      "specialRequirements": "Disiplin menjaga SLA waktu balas chat di bawah 5 menit pada jam operasional"
+    },
+    {
+      "id": "pge-sales-04",
+      "code": "SALES-04",
+      "title": "Marketplace Specialist",
+      "departmentId": "dept-sales",
+      "level": "Senior",
+      "summary": "Meningkatkan penjualan seluruh akun marketplace aktif melalui optimasi SEO judul produk, riset kata kunci, penataan etalase, keikutsertaan flash sale, dan analisis tren pasar.",
+      "keyResponsibilities": [
+        "Menganalisis performa lalu lintas (traffic), konversi, dan penjualan tiap SKU produk",
+        "Menyusun rencana optimasi judul, deskripsi, foto cover, dan kata kunci SEO marketplace",
+        "Memantau harga kompetitor, tren musiman, dan mendaftarkan produk ke program promo marketplace",
+        "Menyusun rekomendasi penyesuaian stok dan harga kepada Team Leader Sales"
+      ],
+      "requiredSkills": [
+        "Marketplace SEO",
+        "Analisis Data Penjualan",
+        "Shopee/Tokopedia Ads",
+        "Optimasi Konversi",
+        "Riset Kompetitor"
+      ],
+      "defaultMainWorkloadPercent": 70,
+      "defaultSecondaryWorkloadPercent": 20,
+      "isShared": false,
+      "isCritical": true,
+      "colorTag": "#f59e0b",
+      "createdAt": "2026-07-27T08:00:00Z",
+      "updatedAt": "2026-07-27T08:00:00Z",
+      "educationRequirement": "Min. D3 / S1 Pemasaran, E-Commerce, Bisnis Digital, atau setara",
+      "experienceRequirement": "Min. 1-2 tahun mengelola official store marketplace dengan omzet teruji",
+      "technicalRequirements": [
+        "Optimasi Marketplace SEO & Judul Produk",
+        "Manajemen Iklan Berbayar (Shopee Ads / Tokopedia Ads)",
+        "Partisipasi Kampanye Tanggal Kembar (Mega Campaign)",
+        "Analisis Traffic, Conversion Rate & ROAS",
+        "Pengelolaan Stok Multi-Channel"
+      ],
+      "softSkills": [
+        "Analitis & berorientasi data",
+        "Cepat tanggap terhadap update algoritma marketplace",
+        "Eksperimentasi kreatif"
+      ],
+      "specialRequirements": "Bertanggung jawab atas efisiensi budget iklan (ROAS) dan kenaikan visibilitas produk toko"
+    },
+    {
+      "id": "pge-mkt-01",
+      "code": "MKT-01",
+      "title": "Team Leader Marketing",
+      "departmentId": "dept-mkt",
+      "level": "Lead",
+      "summary": "Memimpin strategi pemasaran, media sosial, konten, kampanye promo, dan event agar brand PGE semakin dikenal serta mendorong traffic penjualan.",
+      "keyResponsibilities": [
+        "Menetapkan arah strategi, kalender kampanye, dan rencana kerja tim Marketing",
+        "Memimpin eksekusi kampanye promo marketplace, event pameran, dan peluncuran produk",
+        "Meninjau analitik jangkauan media sosial, konversi iklan, dan ROI pemasaran",
+        "Mengoordinasikan kebutuhan aset visual dengan tim konten dan divisi lain"
+      ],
+      "requiredSkills": [
+        "Marketing Strategy",
+        "Campaign Management",
+        "Paid Ads Analysis",
+        "Brand Growth",
+        "Event Planning"
+      ],
+      "defaultMainWorkloadPercent": 75,
+      "defaultSecondaryWorkloadPercent": 20,
+      "isShared": false,
+      "isCritical": true,
+      "colorTag": "#ec4899",
+      "createdAt": "2026-07-27T08:00:00Z",
+      "updatedAt": "2026-07-27T08:00:00Z",
+      "educationRequirement": "Min. S1 Pemasaran, Komunikasi, Manajemen Bisnis, atau DKV",
+      "experienceRequirement": "Min. 3 tahun di bidang Strategic Marketing, Branding, atau Agensi Periklanan",
+      "technicalRequirements": [
+        "Marketing Campaign Strategy & Budgeting",
+        "Kajian Tren Pasar & Segmentasi Pelanggan",
+        "Pengawasan Kalender Konten Multi-Platform",
+        "Analisis Metrik Pemasaran (CAC, LTV, ROI)",
+        "Kolaborasi Influencer & Event"
+      ],
+      "softSkills": [
+        "Visi strategis & kepemimpinan kreatif",
+        "Presentasi persuasif",
+        "Manajemen tim kreatif multi-disiplin"
+      ],
+      "specialRequirements": "Memimpin arah visual brand PGE agar relevan di pasar grosir dan eceran nasional"
+    },
+    {
+      "id": "pge-mkt-02",
+      "code": "MKT-02",
+      "title": "Social Media Specialist",
+      "departmentId": "dept-mkt",
+      "level": "Mid",
+      "summary": "Menyusun dan mengeksekusi kalender konten media sosial (TikTok, Instagram), mengelola publikasi, interaksi komentar/DM, dan mengarahkan calon pembeli ke marketplace/WA.",
+      "keyResponsibilities": [
+        "Menyusun kalender editorial media sosial harian dan mingguan",
+        "Mengarahkan kebutuhan brief foto/video kepada staf Content Creator",
+        "Mengelola interaksi komentar, live streaming, dan pesan masuk media sosial",
+        "Menilai metrik pertumbuhan followers, engagement rate, dan efektivitas konten"
+      ],
+      "requiredSkills": [
+        "Social Media Strategy",
+        "TikTok & Instagram Algorithm",
+        "Copywriting Medsos",
+        "Live Streaming Host",
+        "Analisis Engagement"
+      ],
+      "defaultMainWorkloadPercent": 70,
+      "defaultSecondaryWorkloadPercent": 15,
+      "isShared": false,
+      "isCritical": false,
+      "colorTag": "#ec4899",
+      "createdAt": "2026-07-27T08:00:00Z",
+      "updatedAt": "2026-07-27T08:00:00Z",
+      "educationRequirement": "Min. D3 / S1 Ilmu Komunikasi, Desain, Periklanan, atau setara",
+      "experienceRequirement": "Min. 1-2 tahun mengelola akun bisnis Instagram, TikTok, & YouTube Shorts",
+      "technicalRequirements": [
+        "Copywriting Menarik & Hook Formula",
+        "Algoritma TikTok & Instagram Reels",
+        "Manajemen Kalender Posting Harian",
+        "Analisis Insight Akun & Engagement Rate",
+        "Live Streaming Commerce"
+      ],
+      "softSkills": [
+        "Kreativitas tanpa henti",
+        "Mengikuti tren pop culture & sound viral",
+        "Interaksi ramah dengan followers"
+      ],
+      "specialRequirements": "Mampu tampil di depan kamera bila dibutuhkan dan cepat mengadaptasi tren harian"
+    },
+    {
+      "id": "pge-mkt-03",
+      "code": "MKT-03",
+      "title": "Content Creation Staff",
+      "departmentId": "dept-mkt",
+      "level": "Mid",
+      "summary": "Memproduksi foto produk katalog, video kreatif TikTok/Reels, video proses produksi manufaktur, dan materi visual promosi yang siap tayang.",
+      "keyResponsibilities": [
+        "Melakukan pengambilan foto dan shooting video produk sesuai konsep brief",
+        "Melakukan editing video dengan transisi, teks penjelas, musik, dan voiceover yang menarik",
+        "Menjaga arsip file master, format resolusi, dan standar visual brand PGE",
+        "Menyerahkan aset konten visual tepat waktu sesuai jadwal kalender media sosial"
+      ],
+      "requiredSkills": [
+        "Video Editing (CapCut/Premiere)",
+        "Fotografi Produk",
+        "Lighting & Audio",
+        "Visual Storytelling",
+        "Shooting Kreatif"
+      ],
+      "defaultMainWorkloadPercent": 70,
+      "defaultSecondaryWorkloadPercent": 15,
+      "isShared": true,
+      "isCritical": false,
+      "colorTag": "#ec4899",
+      "createdAt": "2026-07-27T08:00:00Z",
+      "updatedAt": "2026-07-27T08:00:00Z",
+      "educationRequirement": "Min. SMK Multimedia / D3 DKV / Broadcasting / Sinematografi",
+      "experienceRequirement": "Min. 1-2 tahun memproduksi video pendek, foto produk katalog, dan editing video",
+      "technicalRequirements": [
+        "Videografi & Fotografi Produk Apparel",
+        "Editing Video (CapCut, Premiere Pro, After Effects)",
+        "Pencahayaan Studio & Setting Angle",
+        "Color Grading & Audio Mixing Dasar"
+      ],
+      "softSkills": [
+        "Mata estetika visual kuat",
+        "Cekatan mengambil momen behind-the-scenes",
+        "Kerja sama solid dengan tim Sales"
+      ],
+      "specialRequirements": "Mampu memproduksi konten video berkualitas tinggi dengan ritme harian yang konsisten"
+    }
+  ],
+  "employees": [
+    {
+      "id": "emp-wahyu",
+      "employeeCode": "PGE-01",
+      "fullName": "Wahyu Albino",
+      "email": "wahyu.albino@pge.co.id",
+      "departmentId": "dept-ops",
+      "jobTitleDisplay": "Belum Ditugaskan",
+      "mainJobId": "pge-ops-01",
+      "secondaryJobIds": [],
+      "maxCapacityPercent": 100,
+      "createdAt": "2026-01-01T00:00:00Z",
+      "updatedAt": "2026-09-10T03:18:53.826Z",
+      "location": "Workshop Produksi & Gudang, Lt. 1",
+      "shift": "08:00 - 17:00 WIB",
+      "tenure": "2 thn 8 bln (Jan 2024)",
+      "reportsTo": "Direktur Operasional / Owner",
+      "phone": "+62 812-9011-2201"
+    },
+    {
+      "id": "emp-tety",
+      "employeeCode": "PGE-02",
+      "fullName": "Tety Dya Pangastuti",
+      "email": "tety.dya@pge.co.id",
+      "departmentId": "dept-ops",
+      "jobTitleDisplay": "Belum Ditugaskan",
+      "mainJobId": "pge-ops-09",
+      "secondaryJobIds": [],
+      "maxCapacityPercent": 100,
+      "createdAt": "2026-01-01T00:00:00Z",
+      "updatedAt": "2026-09-10T03:23:50.465Z",
+      "location": "Studio R&D & Desain, Lt. 2",
+      "shift": "08:30 - 17:30 WIB",
+      "tenure": "1 thn 10 bln (Nov 2024)",
+      "reportsTo": "Kepala Operasional",
+      "phone": "+62 813-4412-8820"
+    },
+    {
+      "id": "emp-imelda",
+      "employeeCode": "PGE-03",
+      "fullName": "Imelda Sarita Sri Suniati",
+      "email": "imelda.sarita@pge.co.id",
+      "departmentId": "dept-ops",
+      "jobTitleDisplay": "Belum Ditugaskan",
+      "mainJobId": "pge-ops-12",
+      "secondaryJobIds": [
+        "pge-ops-14",
+        "pge-ops-15"
+      ],
+      "maxCapacityPercent": 100,
+      "createdAt": "2026-01-01T00:00:00Z",
+      "updatedAt": "2026-09-10T03:24:58.441Z",
+      "location": "Area Printing Sublim & DTF",
+      "shift": "Shift Pagi (07:30 - 16:30 WIB)",
+      "tenure": "2 thn 1 bln (Agus 2024)",
+      "reportsTo": "Kepala Operasional",
+      "phone": "+62 857-1234-9981"
+    },
+    {
+      "id": "emp-anisyatul",
+      "employeeCode": "PGE-04",
+      "fullName": "Anisyatul Hasanah",
+      "email": "anisyatul.hasanah@pge.co.id",
+      "departmentId": "dept-sales",
+      "jobTitleDisplay": "Belum Ditugaskan",
+      "mainJobId": "pge-sales-01",
+      "secondaryJobIds": [
+        "pge-sales-02",
+        "pge-sales-03"
+      ],
+      "maxCapacityPercent": 100,
+      "createdAt": "2026-01-01T00:00:00Z",
+      "updatedAt": "2026-09-23T08:21:47.276Z",
+      "location": "Ruang Sales & Customer Care",
+      "shift": "08:00 - 17:00 WIB",
+      "tenure": "3 thn 2 bln (Juli 2023)",
+      "reportsTo": "Owner / Head of Sales",
+      "phone": "+62 812-7788-0091"
+    },
+    {
+      "id": "emp-riska-amelia",
+      "employeeCode": "PGE-05",
+      "fullName": "Riska Amelia",
+      "email": "riska.amelia@pge.co.id",
+      "departmentId": "dept-fat",
+      "jobTitleDisplay": "Belum Ditugaskan",
+      "mainJobId": "pge-fat-02",
+      "secondaryJobIds": [
+        "pge-fat-04",
+        "pge-fat-03",
+        "pge-fat-01"
+      ],
+      "maxCapacityPercent": 100,
+      "createdAt": "2026-01-01T00:00:00Z",
+      "updatedAt": "2026-09-23T08:21:47.276Z",
+      "location": "Ruang Keuangan & Pajak, Lt. 2",
+      "shift": "08:00 - 17:00 WIB",
+      "tenure": "2 thn 4 bln (Mei 2024)",
+      "reportsTo": "Owner / Finance Director",
+      "phone": "+62 811-9988-1234"
+    },
+    {
+      "id": "emp-dhea",
+      "employeeCode": "PGE-06",
+      "fullName": "Dhea Amalia Fadhillah",
+      "email": "dhea.amalia@pge.co.id",
+      "departmentId": "dept-sales",
+      "jobTitleDisplay": "Belum Ditugaskan",
+      "mainJobId": "pge-sales-03",
+      "secondaryJobIds": [],
+      "maxCapacityPercent": 100,
+      "createdAt": "2026-01-01T00:00:00Z",
+      "updatedAt": "2026-09-10T08:24:47.081Z",
+      "location": "Ruang Sales & Admin Marketplace",
+      "shift": "08:30 - 17:30 WIB",
+      "tenure": "1 thn 2 bln (Juli 2025)",
+      "reportsTo": "Team Leader Sales",
+      "phone": "+62 813-8822-1144"
+    },
+    {
+      "id": "emp-chantya",
+      "employeeCode": "PGE-07",
+      "fullName": "Chantya Serly Akhlidya",
+      "email": "chantya.serly@pge.co.id",
+      "departmentId": "dept-mkt",
+      "jobTitleDisplay": "Belum Ditugaskan",
+      "mainJobId": "pge-mkt-03",
+      "secondaryJobIds": [
+        "pge-sales-03"
+      ],
+      "maxCapacityPercent": 100,
+      "createdAt": "2026-01-01T00:00:00Z",
+      "updatedAt": "2026-09-10T03:28:16.096Z",
+      "location": "Studio Digital Marketing & Sosmed",
+      "shift": "09:00 - 18:00 WIB",
+      "tenure": "1 thn 6 bln (Maret 2025)",
+      "reportsTo": "Head of Marketing",
+      "phone": "+62 812-6655-4433"
+    },
+    {
+      "id": "emp-titania",
+      "employeeCode": "PGE-08",
+      "fullName": "Titania Susilowati Fauziyah",
+      "email": "titania.susilowati@pge.co.id",
+      "departmentId": "dept-ops",
+      "jobTitleDisplay": "Belum Ditugaskan",
+      "mainJobId": "pge-ops-03",
+      "secondaryJobIds": [],
+      "maxCapacityPercent": 100,
+      "createdAt": "2026-01-01T00:00:00Z",
+      "updatedAt": "2026-09-10T03:19:04.650Z",
+      "location": "Gudang Bahan Baku & QC",
+      "shift": "08:00 - 17:00 WIB",
+      "tenure": "1 thn 9 bln (Des 2024)",
+      "reportsTo": "Kepala Operasional",
+      "phone": "+62 878-1122-3344"
+    },
+    {
+      "id": "emp-linda",
+      "employeeCode": "PGE-09",
+      "fullName": "Linda Novianti",
+      "email": "linda.novianti@pge.co.id",
+      "departmentId": "dept-ops",
+      "jobTitleDisplay": "Belum Ditugaskan",
+      "mainJobId": "pge-ops-02",
+      "secondaryJobIds": [
+        "pge-ops-07",
+        "pge-ops-08",
+        "pge-ops-16"
+      ],
+      "maxCapacityPercent": 100,
+      "createdAt": "2026-01-01T00:00:00Z",
+      "updatedAt": "2026-09-10T03:25:12.961Z",
+      "location": "Workshop Lanyard & Bordir",
+      "shift": "08:00 - 17:00 WIB",
+      "tenure": "3 thn 0 bln (Sept 2023)",
+      "reportsTo": "Kepala Operasional",
+      "phone": "+62 856-7788-9900"
+    },
+    {
+      "id": "emp-ary",
+      "employeeCode": "PGE-10",
+      "fullName": "Ary Indriyani",
+      "email": "ary.indriyani@pge.co.id",
+      "departmentId": "dept-ops",
+      "jobTitleDisplay": "Belum Ditugaskan",
+      "mainJobId": "pge-ops-17",
+      "secondaryJobIds": [],
+      "maxCapacityPercent": 100,
+      "createdAt": "2026-01-01T00:00:00Z",
+      "updatedAt": "2026-09-10T03:25:40.641Z",
+      "location": "Area Finishing & Perakitan Lanyard",
+      "shift": "08:00 - 17:00 WIB",
+      "tenure": "1 thn 4 bln (Mei 2025)",
+      "reportsTo": "Leader Produksi Lanyard",
+      "phone": "+62 812-3344-5566"
+    },
+    {
+      "id": "emp-parni",
+      "employeeCode": "PGE-11",
+      "fullName": "Parni",
+      "email": "parni@pge.co.id",
+      "departmentId": "dept-ops",
+      "jobTitleDisplay": "Belum Ditugaskan",
+      "mainJobId": "pge-ops-17",
+      "secondaryJobIds": [],
+      "maxCapacityPercent": 100,
+      "createdAt": "2026-01-01T00:00:00Z",
+      "updatedAt": "2026-09-10T03:26:08.145Z",
+      "location": "Area Finishing & Perakitan Lanyard",
+      "shift": "08:00 - 17:00 WIB",
+      "tenure": "2 thn 6 bln (Maret 2024)",
+      "reportsTo": "Leader Produksi Lanyard",
+      "phone": "+62 813-2233-4455"
+    },
+    {
+      "id": "emp-dewi",
+      "employeeCode": "PGE-12",
+      "fullName": "Dewi Kusumaningrum",
+      "email": "dewi.kusuma@pge.co.id",
+      "departmentId": "dept-ops",
+      "jobTitleDisplay": "Belum Ditugaskan",
+      "mainJobId": "pge-ops-17",
+      "secondaryJobIds": [],
+      "maxCapacityPercent": 100,
+      "createdAt": "2026-01-01T00:00:00Z",
+      "updatedAt": "2026-09-10T03:26:04.930Z",
+      "location": "Area Finishing & Perakitan Lanyard",
+      "shift": "08:00 - 17:00 WIB",
+      "tenure": "1 thn 8 bln (Jan 2025)",
+      "reportsTo": "Leader Produksi Lanyard",
+      "phone": "+62 819-4455-6677"
+    },
+    {
+      "id": "emp-riska-iga",
+      "employeeCode": "PGE-13",
+      "fullName": "Riska Iga Mawarni",
+      "email": "riska.iga@pge.co.id",
+      "departmentId": "dept-ops",
+      "jobTitleDisplay": "Belum Ditugaskan",
+      "mainJobId": "pge-ops-17",
+      "secondaryJobIds": [],
+      "maxCapacityPercent": 100,
+      "createdAt": "2026-01-01T00:00:00Z",
+      "updatedAt": "2026-09-10T03:26:01.161Z",
+      "location": "Area Finishing & Perakitan Lanyard",
+      "shift": "08:00 - 17:00 WIB",
+      "tenure": "1 thn 1 bln (Agus 2025)",
+      "reportsTo": "Leader Produksi Lanyard",
+      "phone": "+62 821-5566-7788"
+    },
+    {
+      "id": "emp-rusmiyati",
+      "employeeCode": "PGE-14",
+      "fullName": "Rusmiyati",
+      "email": "rusmiyati@pge.co.id",
+      "departmentId": "dept-ops",
+      "jobTitleDisplay": "Belum Ditugaskan",
+      "mainJobId": "pge-ops-18",
+      "secondaryJobIds": [],
+      "maxCapacityPercent": 100,
+      "createdAt": "2026-01-01T00:00:00Z",
+      "updatedAt": "2026-09-10T03:27:03.001Z",
+      "location": "Lini Jahit Tas & Pouch",
+      "shift": "08:00 - 17:00 WIB",
+      "tenure": "3 thn 4 bln (Mei 2023)",
+      "reportsTo": "Leader Sewing & Finishing",
+      "phone": "+62 813-6677-8899"
+    },
+    {
+      "id": "emp-jumiati",
+      "employeeCode": "PGE-15",
+      "fullName": "Jumiati",
+      "email": "jumiati@pge.co.id",
+      "departmentId": "dept-ops",
+      "jobTitleDisplay": "Belum Ditugaskan",
+      "mainJobId": "pge-ops-18",
+      "secondaryJobIds": [],
+      "maxCapacityPercent": 100,
+      "createdAt": "2026-01-01T00:00:00Z",
+      "updatedAt": "2026-09-10T03:26:48.001Z",
+      "location": "Lini Jahit Tas & Pouch",
+      "shift": "08:00 - 17:00 WIB",
+      "tenure": "2 thn 9 bln (Des 2023)",
+      "reportsTo": "Leader Sewing & Finishing",
+      "phone": "+62 852-7788-9911"
+    },
+    {
+      "id": "emp-olivia",
+      "employeeCode": "PGE-16",
+      "fullName": "Olivia",
+      "email": "olivia@pge.co.id",
+      "departmentId": "dept-ops",
+      "jobTitleDisplay": "Belum Ditugaskan",
+      "mainJobId": "pge-ops-04",
+      "secondaryJobIds": [
+        "pge-ops-06"
+      ],
+      "maxCapacityPercent": 100,
+      "createdAt": "2026-01-01T00:00:00Z",
+      "updatedAt": "2026-09-10T03:23:38.234Z",
+      "location": "Studio Laser Cutting & Akrilik",
+      "shift": "08:30 - 17:30 WIB",
+      "tenure": "1 thn 7 bln (Feb 2025)",
+      "reportsTo": "Kepala Operasional",
+      "phone": "+62 812-9900-1122"
+    },
+    {
+      "id": "emp-yohana",
+      "employeeCode": "PGE-17",
+      "fullName": "Yohana",
+      "email": "yohana@pge.co.id",
+      "departmentId": "dept-ops",
+      "jobTitleDisplay": "Belum Ditugaskan",
+      "mainJobId": "pge-ops-05",
+      "secondaryJobIds": [
+        "pge-ops-10",
+        "pge-ops-11"
+      ],
+      "maxCapacityPercent": 100,
+      "createdAt": "2026-01-01T00:00:00Z",
+      "updatedAt": "2026-09-10T03:24:07.921Z",
+      "location": "Studio Desain Grafis & Cetak",
+      "shift": "08:30 - 17:30 WIB",
+      "tenure": "2 thn 2 bln (Juli 2024)",
+      "reportsTo": "Kepala Operasional",
+      "phone": "+62 813-1122-4455"
+    },
+    {
+      "id": "emp-sholekah",
+      "employeeCode": "PGE-18",
+      "fullName": "Sholekah Nur Khoiroh",
+      "email": "sholekah.nur@pge.co.id",
+      "departmentId": "dept-ops",
+      "jobTitleDisplay": "Belum Ditugaskan",
+      "mainJobId": "pge-ops-13",
+      "secondaryJobIds": [
+        "pge-ops-18"
+      ],
+      "maxCapacityPercent": 100,
+      "createdAt": "2026-01-01T00:00:00Z",
+      "updatedAt": "2026-09-10T03:27:13.553Z",
+      "location": "Area Perakitan Lanyard & Heat Press",
+      "shift": "08:00 - 17:00 WIB",
+      "tenure": "2 thn 0 bln (Sept 2024)",
+      "reportsTo": "Leader Produksi Lanyard",
+      "phone": "+62 877-3344-5566"
+    },
+    {
+      "id": "emp-aloysius",
+      "employeeCode": "PGE-19",
+      "fullName": "Aloysius Gonzaga Pri Sambodo Nugroho",
+      "email": "aloysius.gonzaga@pge.co.id",
+      "departmentId": "dept-hr",
+      "jobTitleDisplay": "Belum Ditugaskan",
+      "mainJobId": null,
+      "secondaryJobIds": [],
+      "maxCapacityPercent": 100,
+      "createdAt": "2026-01-01T00:00:00Z",
+      "updatedAt": "2026-09-10T03:14:04.651Z",
+      "location": "Ruang HRD & General Affairs, Lt. 2",
+      "shift": "08:00 - 17:00 WIB",
+      "tenure": "3 thn 6 bln (Maret 2023)",
+      "reportsTo": "Owner / Direksi",
+      "phone": "+62 812-8877-6655"
+    },
+    {
+      "id": "emp-pandu",
+      "employeeCode": "PGE-20",
+      "fullName": "Pandu Yogatama",
+      "email": "pandu.yogatama@pge.co.id",
+      "departmentId": "dept-mkt",
+      "jobTitleDisplay": "Belum Ditugaskan",
+      "mainJobId": "pge-mkt-01",
+      "secondaryJobIds": [
+        "pge-mkt-02"
+      ],
+      "maxCapacityPercent": 100,
+      "createdAt": "2026-01-01T00:00:00Z",
+      "updatedAt": "2026-09-10T03:27:56.810Z",
+      "location": "Ruang Media Digital & Campaign",
+      "shift": "09:00 - 18:00 WIB",
+      "tenure": "2 thn 3 bln (Juni 2024)",
+      "reportsTo": "Owner / Head of Marketing",
+      "phone": "+62 811-4455-6677"
+    },
+    {
+      "id": "emp-ilham",
+      "employeeCode": "PGE-21",
+      "fullName": "Ilham Rizky Nugroho",
+      "email": "ilham.rizky@pge.co.id",
+      "departmentId": "dept-ops",
+      "jobTitleDisplay": "Belum Ditugaskan",
+      "mainJobId": "pge-ops-10",
+      "secondaryJobIds": [],
+      "maxCapacityPercent": 100,
+      "createdAt": "2026-01-01T00:00:00Z",
+      "updatedAt": "2026-09-23T02:41:19.994Z",
+      "location": "Area Mesin Potong Kain & Akrilik",
+      "shift": "08:00 - 17:00 WIB",
+      "tenure": "1 thn 5 bln (April 2025)",
+      "reportsTo": "Kepala Operasional",
+      "phone": "+62 813-9988-7766"
+    }
+  ],
+  "auditLogs": [
+    {
+      "actionType": "TRANSFER_ROLE",
+      "jobId": "pge-fat-01",
+      "jobTitle": "Finance Officer",
+      "fromEmployeeId": "emp-anisyatul",
+      "fromEmployeeName": "Anisyatul Hasanah",
+      "toEmployeeId": "emp-riska-amelia",
+      "toEmployeeName": "Riska Amelia",
+      "slotType": "secondary",
+      "details": "Alih tanggung jawab (Handover) \"Finance Officer\" (FAT-01) dari Anisyatul Hasanah kepada Riska Amelia sebagai Tugas Sekunder.",
+      "id": "log-mudu3tl8-mujfk",
+      "timestamp": "2026-09-23T08:21:47.276Z"
+    },
+    {
+      "actionType": "TRANSFER_ROLE",
+      "jobId": "pge-fat-01",
+      "jobTitle": "Finance Officer",
+      "fromEmployeeId": "emp-riska-amelia",
+      "fromEmployeeName": "Riska Amelia",
+      "toEmployeeId": "emp-anisyatul",
+      "toEmployeeName": "Anisyatul Hasanah",
+      "slotType": "secondary",
+      "details": "Alih tanggung jawab (Handover) \"Finance Officer\" (FAT-01) dari Riska Amelia kepada Anisyatul Hasanah sebagai Tugas Sekunder.",
+      "id": "log-mudu3snp-uxndo",
+      "timestamp": "2026-09-23T08:21:46.070Z"
+    },
+    {
+      "actionType": "ASSIGN_MAIN",
+      "jobId": "pge-ops-10",
+      "jobTitle": "Operator Potong",
+      "toEmployeeId": "emp-ilham",
+      "toEmployeeName": "Ilham Rizky Nugroho",
+      "slotType": "main",
+      "details": "Penetapan \"Operator Potong\" (OPS-10) kepada Ilham Rizky Nugroho sebagai Tugas Utama.",
+      "id": "log-mudhxzsr-bl59d",
+      "timestamp": "2026-09-23T02:41:19.995Z"
+    },
+    {
+      "actionType": "ASSIGN_MAIN",
+      "jobId": "pge-sales-03",
+      "jobTitle": "Admin Sales & Marketplace",
+      "toEmployeeId": "emp-dhea",
+      "toEmployeeName": "Dhea Amalia Fadhillah",
+      "slotType": "main",
+      "details": "Penetapan \"Admin Sales & Marketplace\" (SALES-03) kepada Dhea Amalia Fadhillah sebagai Tugas Utama.",
+      "id": "log-mtv9hlnt-r6a33",
+      "timestamp": "2026-09-10T08:24:47.081Z"
+    },
+    {
+      "actionType": "UNASSIGN",
+      "jobId": "pge-ops-10",
+      "jobTitle": "Operator Potong",
+      "fromEmployeeId": "emp-ilham",
+      "fromEmployeeName": "Ilham Rizky Nugroho",
+      "slotType": "secondary",
+      "details": "Pelepasan tanggung jawab \"Operator Potong\" dari Ilham Rizky Nugroho.",
+      "id": "log-mtuzqrrq-gl641",
+      "timestamp": "2026-09-10T03:51:58.742Z"
+    },
+    {
+      "actionType": "ASSIGN_SECONDARY",
+      "jobId": "pge-ops-10",
+      "jobTitle": "Operator Potong",
+      "toEmployeeId": "emp-ilham",
+      "toEmployeeName": "Ilham Rizky Nugroho",
+      "slotType": "secondary",
+      "details": "Penetapan \"Operator Potong\" (OPS-10) kepada Ilham Rizky Nugroho sebagai Tugas Sekunder.",
+      "id": "log-mtuzqr4l-ry8ra",
+      "timestamp": "2026-09-10T03:51:57.909Z"
+    },
+    {
+      "actionType": "UNASSIGN",
+      "jobId": "pge-ops-10",
+      "jobTitle": "Operator Potong",
+      "fromEmployeeId": "emp-ilham",
+      "fromEmployeeName": "Ilham Rizky Nugroho",
+      "slotType": "secondary",
+      "details": "Pelepasan tanggung jawab \"Operator Potong\" dari Ilham Rizky Nugroho.",
+      "id": "log-mtuzqpdy-m04u0",
+      "timestamp": "2026-09-10T03:51:55.654Z"
+    },
+    {
+      "actionType": "ASSIGN_SECONDARY",
+      "jobId": "pge-ops-10",
+      "jobTitle": "Operator Potong",
+      "toEmployeeId": "emp-ilham",
+      "toEmployeeName": "Ilham Rizky Nugroho",
+      "slotType": "secondary",
+      "details": "Penetapan \"Operator Potong\" (OPS-10) kepada Ilham Rizky Nugroho sebagai Tugas Sekunder.",
+      "id": "log-mtuzqmf9-3cy6q",
+      "timestamp": "2026-09-10T03:51:51.813Z"
+    },
+    {
+      "actionType": "UNASSIGN",
+      "jobId": "pge-ops-10",
+      "jobTitle": "Operator Potong",
+      "fromEmployeeId": "emp-ilham",
+      "fromEmployeeName": "Ilham Rizky Nugroho",
+      "slotType": "secondary",
+      "details": "Pelepasan tanggung jawab \"Operator Potong\" dari Ilham Rizky Nugroho.",
+      "id": "log-mtuzqm2d-xaoi6",
+      "timestamp": "2026-09-10T03:51:51.349Z"
+    },
+    {
+      "actionType": "ASSIGN_SECONDARY",
+      "jobId": "pge-ops-10",
+      "jobTitle": "Operator Potong",
+      "toEmployeeId": "emp-ilham",
+      "toEmployeeName": "Ilham Rizky Nugroho",
+      "slotType": "secondary",
+      "details": "Penetapan \"Operator Potong\" (OPS-10) kepada Ilham Rizky Nugroho sebagai Tugas Sekunder.",
+      "id": "log-mtuzqkus-qxk5v",
+      "timestamp": "2026-09-10T03:51:49.780Z"
+    },
+    {
+      "actionType": "UNASSIGN",
+      "jobId": "pge-ops-10",
+      "jobTitle": "Operator Potong",
+      "fromEmployeeId": "emp-ilham",
+      "fromEmployeeName": "Ilham Rizky Nugroho",
+      "slotType": "secondary",
+      "details": "Pelepasan tanggung jawab \"Operator Potong\" dari Ilham Rizky Nugroho.",
+      "id": "log-mtuzqkp2-777wf",
+      "timestamp": "2026-09-10T03:51:49.574Z"
+    },
+    {
+      "actionType": "ASSIGN_SECONDARY",
+      "jobId": "pge-ops-10",
+      "jobTitle": "Operator Potong",
+      "toEmployeeId": "emp-ilham",
+      "toEmployeeName": "Ilham Rizky Nugroho",
+      "slotType": "secondary",
+      "details": "Penetapan \"Operator Potong\" (OPS-10) kepada Ilham Rizky Nugroho sebagai Tugas Sekunder.",
+      "id": "log-mtuzqijh-s8kzz",
+      "timestamp": "2026-09-10T03:51:46.781Z"
+    },
+    {
+      "actionType": "ASSIGN_SECONDARY",
+      "jobId": "pge-sales-03",
+      "jobTitle": "Admin Sales & Marketplace",
+      "toEmployeeId": "emp-chantya",
+      "toEmployeeName": "Chantya Serly Akhlidya",
+      "slotType": "secondary",
+      "details": "Penetapan \"Admin Sales & Marketplace\" (SALES-03) kepada Chantya Serly Akhlidya sebagai Tugas Sekunder.",
+      "id": "log-mtuywa1s-tilfg",
+      "timestamp": "2026-09-10T03:28:16.096Z"
+    },
+    {
+      "actionType": "ASSIGN_MAIN",
+      "jobId": "pge-mkt-03",
+      "jobTitle": "Content Creation Staff",
+      "toEmployeeId": "emp-chantya",
+      "toEmployeeName": "Chantya Serly Akhlidya",
+      "slotType": "main",
+      "details": "Penetapan \"Content Creation Staff\" (MKT-03) kepada Chantya Serly Akhlidya sebagai Tugas Utama.",
+      "id": "log-mtuyvzg8-f8pjj",
+      "timestamp": "2026-09-10T03:28:02.360Z"
+    },
+    {
+      "actionType": "UNASSIGN",
+      "jobId": "pge-sales-04",
+      "jobTitle": "Marketplace Specialist",
+      "fromEmployeeId": "emp-pandu",
+      "fromEmployeeName": "Pandu Yogatama",
+      "slotType": "secondary",
+      "details": "Pelepasan tanggung jawab \"Marketplace Specialist\" dari Pandu Yogatama.",
+      "id": "log-mtuyvv62-d7u5b",
+      "timestamp": "2026-09-10T03:27:56.810Z"
+    },
+    {
+      "actionType": "ASSIGN_SECONDARY",
+      "jobId": "pge-mkt-02",
+      "jobTitle": "Social Media Specialist",
+      "toEmployeeId": "emp-pandu",
+      "toEmployeeName": "Pandu Yogatama",
+      "slotType": "secondary",
+      "details": "Penetapan \"Social Media Specialist\" (MKT-02) kepada Pandu Yogatama sebagai Tugas Sekunder.",
+      "id": "log-mtuyvpll-vhy08",
+      "timestamp": "2026-09-10T03:27:49.593Z"
+    },
+    {
+      "actionType": "ASSIGN_SECONDARY",
+      "jobId": "pge-sales-04",
+      "jobTitle": "Marketplace Specialist",
+      "toEmployeeId": "emp-pandu",
+      "toEmployeeName": "Pandu Yogatama",
+      "slotType": "secondary",
+      "details": "Penetapan \"Marketplace Specialist\" (SALES-04) kepada Pandu Yogatama sebagai Tugas Sekunder.",
+      "id": "log-mtuyvm9l-xii8p",
+      "timestamp": "2026-09-10T03:27:45.273Z"
+    },
+    {
+      "actionType": "ASSIGN_MAIN",
+      "jobId": "pge-mkt-01",
+      "jobTitle": "Team Leader Marketing",
+      "toEmployeeId": "emp-pandu",
+      "toEmployeeName": "Pandu Yogatama",
+      "slotType": "main",
+      "details": "Penetapan \"Team Leader Marketing\" (MKT-01) kepada Pandu Yogatama sebagai Tugas Utama.",
+      "id": "log-mtuyvkyx-nqtf1",
+      "timestamp": "2026-09-10T03:27:43.593Z"
+    },
+    {
+      "actionType": "ASSIGN_MAIN",
+      "jobId": "pge-sales-04",
+      "jobTitle": "Marketplace Specialist",
+      "toEmployeeId": "emp-pandu",
+      "toEmployeeName": "Pandu Yogatama",
+      "slotType": "main",
+      "details": "Penetapan \"Marketplace Specialist\" (SALES-04) kepada Pandu Yogatama sebagai Tugas Utama.",
+      "id": "log-mtuyvhvt-6uaz2",
+      "timestamp": "2026-09-10T03:27:39.593Z"
+    },
+    {
+      "actionType": "ASSIGN_SECONDARY",
+      "jobId": "pge-sales-03",
+      "jobTitle": "Admin Sales & Marketplace",
+      "toEmployeeId": "emp-anisyatul",
+      "toEmployeeName": "Anisyatul Hasanah",
+      "slotType": "secondary",
+      "details": "Penetapan \"Admin Sales & Marketplace\" (SALES-03) kepada Anisyatul Hasanah sebagai Tugas Sekunder.",
+      "id": "log-mtuyvaex-6o582",
+      "timestamp": "2026-09-10T03:27:29.913Z"
+    },
+    {
+      "actionType": "ASSIGN_SECONDARY",
+      "jobId": "pge-sales-02",
+      "jobTitle": "Customer Retention & After-Sales Specialist",
+      "toEmployeeId": "emp-anisyatul",
+      "toEmployeeName": "Anisyatul Hasanah",
+      "slotType": "secondary",
+      "details": "Penetapan \"Customer Retention & After-Sales Specialist\" (SALES-02) kepada Anisyatul Hasanah sebagai Tugas Sekunder.",
+      "id": "log-mtuyv8q9-3f9ek",
+      "timestamp": "2026-09-10T03:27:27.729Z"
+    },
+    {
+      "actionType": "ASSIGN_MAIN",
+      "jobId": "pge-sales-01",
+      "jobTitle": "Team Leader Sales",
+      "toEmployeeId": "emp-anisyatul",
+      "toEmployeeName": "Anisyatul Hasanah",
+      "slotType": "main",
+      "details": "Penetapan \"Team Leader Sales\" (SALES-01) kepada Anisyatul Hasanah sebagai Tugas Utama.",
+      "id": "log-mtuyv7cp-xes4p",
+      "timestamp": "2026-09-10T03:27:25.945Z"
+    },
+    {
+      "actionType": "ASSIGN_SECONDARY",
+      "jobId": "pge-ops-18",
+      "jobTitle": "Pembantu Produksi",
+      "toEmployeeId": "emp-sholekah",
+      "toEmployeeName": "Sholekah Nur Khoiroh",
+      "slotType": "secondary",
+      "details": "Penetapan \"Pembantu Produksi\" (OPS-18) kepada Sholekah Nur Khoiroh sebagai Tugas Sekunder.",
+      "id": "log-mtuyuxsh-46f1n",
+      "timestamp": "2026-09-10T03:27:13.553Z"
+    },
+    {
+      "actionType": "ASSIGN_MAIN",
+      "jobId": "pge-ops-18",
+      "jobTitle": "Pembantu Produksi",
+      "toEmployeeId": "emp-rusmiyati",
+      "toEmployeeName": "Rusmiyati",
+      "slotType": "main",
+      "details": "Penetapan \"Pembantu Produksi\" (OPS-18) kepada Rusmiyati sebagai Tugas Utama.",
+      "id": "log-mtuyupnd-nml75",
+      "timestamp": "2026-09-10T03:27:03.001Z"
+    },
+    {
+      "actionType": "TRANSFER_ROLE",
+      "jobId": "pge-ops-18",
+      "jobTitle": "Pembantu Produksi",
+      "fromEmployeeId": "emp-rusmiyati",
+      "fromEmployeeName": "Rusmiyati",
+      "toEmployeeId": "emp-jumiati",
+      "toEmployeeName": "Jumiati",
+      "slotType": "main",
+      "details": "Alih tugas (Handover) \"Pembantu Produksi\" dari Rusmiyati ke Jumiati (main).",
+      "id": "log-mtuyue2p-e03em",
+      "timestamp": "2026-09-10T03:26:48.001Z"
+    },
+    {
+      "actionType": "ASSIGN_MAIN",
+      "jobId": "pge-ops-18",
+      "jobTitle": "Pembantu Produksi",
+      "toEmployeeId": "emp-rusmiyati",
+      "toEmployeeName": "Rusmiyati",
+      "slotType": "main",
+      "details": "Penetapan \"Pembantu Produksi\" (OPS-18) kepada Rusmiyati sebagai Tugas Utama.",
+      "id": "log-mtuyuc5t-k0c13",
+      "timestamp": "2026-09-10T03:26:45.521Z"
+    },
+    {
+      "actionType": "ASSIGN_MAIN",
+      "jobId": "pge-ops-11",
+      "jobTitle": "Helper Potong",
+      "toEmployeeId": "emp-jumiati",
+      "toEmployeeName": "Jumiati",
+      "slotType": "main",
+      "details": "Penetapan \"Helper Potong\" (OPS-11) kepada Jumiati sebagai Tugas Utama.",
+      "id": "log-mtuytv9t-7uazb",
+      "timestamp": "2026-09-10T03:26:23.633Z"
+    },
+    {
+      "actionType": "ASSIGN_MAIN",
+      "jobId": "pge-ops-11",
+      "jobTitle": "Helper Potong",
+      "toEmployeeId": "emp-rusmiyati",
+      "toEmployeeName": "Rusmiyati",
+      "slotType": "main",
+      "details": "Penetapan \"Helper Potong\" (OPS-11) kepada Rusmiyati sebagai Tugas Utama.",
+      "id": "log-mtuytt09-dd80q",
+      "timestamp": "2026-09-10T03:26:20.697Z"
+    },
+    {
+      "actionType": "ASSIGN_MAIN",
+      "jobId": "pge-ops-17",
+      "jobTitle": "Operator Jahit",
+      "toEmployeeId": "emp-parni",
+      "toEmployeeName": "Parni",
+      "slotType": "main",
+      "details": "Penetapan \"Operator Jahit\" (OPS-17) kepada Parni sebagai Tugas Utama.",
+      "id": "log-mtuytjbl-9205r",
+      "timestamp": "2026-09-10T03:26:08.145Z"
+    },
+    {
+      "actionType": "ASSIGN_MAIN",
+      "jobId": "pge-ops-17",
+      "jobTitle": "Operator Jahit",
+      "toEmployeeId": "emp-dewi",
+      "toEmployeeName": "Dewi Kusumaningrum",
+      "slotType": "main",
+      "details": "Penetapan \"Operator Jahit\" (OPS-17) kepada Dewi Kusumaningrum sebagai Tugas Utama.",
+      "id": "log-mtuytgua-s9s43",
+      "timestamp": "2026-09-10T03:26:04.930Z"
+    },
+    {
+      "actionType": "ASSIGN_MAIN",
+      "jobId": "pge-ops-17",
+      "jobTitle": "Operator Jahit",
+      "toEmployeeId": "emp-riska-iga",
+      "toEmployeeName": "Riska Iga Mawarni",
+      "slotType": "main",
+      "details": "Penetapan \"Operator Jahit\" (OPS-17) kepada Riska Iga Mawarni sebagai Tugas Utama.",
+      "id": "log-mtuytdxl-uy3o8",
+      "timestamp": "2026-09-10T03:26:01.161Z"
+    },
+    {
+      "actionType": "ASSIGN_MAIN",
+      "jobId": "pge-ops-17",
+      "jobTitle": "Operator Jahit",
+      "toEmployeeId": "emp-ary",
+      "toEmployeeName": "Ary Indriyani",
+      "slotType": "main",
+      "details": "Penetapan \"Operator Jahit\" (OPS-17) kepada Ary Indriyani sebagai Tugas Utama.",
+      "id": "log-mtuysy3l-mzrz5",
+      "timestamp": "2026-09-10T03:25:40.641Z"
+    },
+    {
+      "actionType": "ASSIGN_SECONDARY",
+      "jobId": "pge-ops-16",
+      "jobTitle": "Operator Bordir",
+      "toEmployeeId": "emp-linda",
+      "toEmployeeName": "Linda Novianti",
+      "slotType": "secondary",
+      "details": "Penetapan \"Operator Bordir\" (OPS-16) kepada Linda Novianti sebagai Tugas Sekunder.",
+      "id": "log-mtuyscqp-556zx",
+      "timestamp": "2026-09-10T03:25:12.961Z"
+    },
+    {
+      "actionType": "ASSIGN_SECONDARY",
+      "jobId": "pge-ops-15",
+      "jobTitle": "Operator Press High Frequency",
+      "toEmployeeId": "emp-imelda",
+      "toEmployeeName": "Imelda Sarita Sri Suniati",
+      "slotType": "secondary",
+      "details": "Penetapan \"Operator Press High Frequency\" (OPS-15) kepada Imelda Sarita Sri Suniati sebagai Tugas Sekunder.",
+      "id": "log-mtuys1jd-i0d8s",
+      "timestamp": "2026-09-10T03:24:58.441Z"
+    },
+    {
+      "actionType": "ASSIGN_SECONDARY",
+      "jobId": "pge-ops-14",
+      "jobTitle": "Operator Press",
+      "toEmployeeId": "emp-imelda",
+      "toEmployeeName": "Imelda Sarita Sri Suniati",
+      "slotType": "secondary",
+      "details": "Penetapan \"Operator Press\" (OPS-14) kepada Imelda Sarita Sri Suniati sebagai Tugas Sekunder.",
+      "id": "log-mtuyrybd-rbaov",
+      "timestamp": "2026-09-10T03:24:54.265Z"
+    },
+    {
+      "actionType": "ASSIGN_MAIN",
+      "jobId": "pge-ops-12",
+      "jobTitle": "Operator Printing",
+      "toEmployeeId": "emp-imelda",
+      "toEmployeeName": "Imelda Sarita Sri Suniati",
+      "slotType": "main",
+      "details": "Penetapan \"Operator Printing\" (OPS-12) kepada Imelda Sarita Sri Suniati sebagai Tugas Utama.",
+      "id": "log-mtuyruk1-22ca8",
+      "timestamp": "2026-09-10T03:24:49.393Z"
+    },
+    {
+      "actionType": "ASSIGN_MAIN",
+      "jobId": "pge-ops-13",
+      "jobTitle": "Operator Lanyard",
+      "toEmployeeId": "emp-sholekah",
+      "toEmployeeName": "Sholekah Nur Khoiroh",
+      "slotType": "main",
+      "details": "Penetapan \"Operator Lanyard\" (OPS-13) kepada Sholekah Nur Khoiroh sebagai Tugas Utama.",
+      "id": "log-mtuyr6yh-yi41v",
+      "timestamp": "2026-09-10T03:24:18.809Z"
+    },
+    {
+      "actionType": "ASSIGN_SECONDARY",
+      "jobId": "pge-ops-11",
+      "jobTitle": "Helper Potong",
+      "toEmployeeId": "emp-yohana",
+      "toEmployeeName": "Yohana",
+      "slotType": "secondary",
+      "details": "Penetapan \"Helper Potong\" (OPS-11) kepada Yohana sebagai Tugas Sekunder.",
+      "id": "log-mtuyqyk1-hckjs",
+      "timestamp": "2026-09-10T03:24:07.921Z"
+    },
+    {
+      "actionType": "ASSIGN_SECONDARY",
+      "jobId": "pge-ops-10",
+      "jobTitle": "Operator Potong",
+      "toEmployeeId": "emp-yohana",
+      "toEmployeeName": "Yohana",
+      "slotType": "secondary",
+      "details": "Penetapan \"Operator Potong\" (OPS-10) kepada Yohana sebagai Tugas Sekunder.",
+      "id": "log-mtuyquu1-9k0km",
+      "timestamp": "2026-09-10T03:24:03.097Z"
+    },
+    {
+      "actionType": "ASSIGN_MAIN",
+      "jobId": "pge-ops-09",
+      "jobTitle": "R&D Produk Digital",
+      "toEmployeeId": "emp-tety",
+      "toEmployeeName": "Tety Dya Pangastuti",
+      "slotType": "main",
+      "details": "Penetapan \"R&D Produk Digital\" (OPS-09) kepada Tety Dya Pangastuti sebagai Tugas Utama.",
+      "id": "log-mtuyql35-ytlb0",
+      "timestamp": "2026-09-10T03:23:50.465Z"
+    },
+    {
+      "actionType": "ASSIGN_SECONDARY",
+      "jobId": "pge-ops-06",
+      "jobTitle": "QC Produk Standar",
+      "toEmployeeId": "emp-olivia",
+      "toEmployeeName": "Olivia",
+      "slotType": "secondary",
+      "details": "Penetapan \"QC Produk Standar\" (OPS-06) kepada Olivia sebagai Tugas Sekunder.",
+      "id": "log-mtuyqbne-q4f03",
+      "timestamp": "2026-09-10T03:23:38.234Z"
+    },
+    {
+      "actionType": "ASSIGN_MAIN",
+      "jobId": "pge-ops-04",
+      "jobTitle": "Admin Operasional",
+      "toEmployeeId": "emp-olivia",
+      "toEmployeeName": "Olivia",
+      "slotType": "main",
+      "details": "Penetapan \"Admin Operasional\" (OPS-04) kepada Olivia sebagai Tugas Utama.",
+      "id": "log-mtuyq9kp-4vvuf",
+      "timestamp": "2026-09-10T03:23:35.545Z"
+    },
+    {
+      "actionType": "ASSIGN_MAIN",
+      "jobId": "pge-ops-05",
+      "jobTitle": "Admin Potong",
+      "toEmployeeId": "emp-yohana",
+      "toEmployeeName": "Yohana",
+      "slotType": "main",
+      "details": "Penetapan \"Admin Potong\" (OPS-05) kepada Yohana sebagai Tugas Utama.",
+      "id": "log-mtuypws1-jq54m",
+      "timestamp": "2026-09-10T03:23:18.961Z"
+    },
+    {
+      "actionType": "ASSIGN_SECONDARY",
+      "jobId": "pge-ops-08",
+      "jobTitle": "R&D Produk Jahit",
+      "toEmployeeId": "emp-linda",
+      "toEmployeeName": "Linda Novianti",
+      "slotType": "secondary",
+      "details": "Penetapan \"R&D Produk Jahit\" (OPS-08) kepada Linda Novianti sebagai Tugas Sekunder.",
+      "id": "log-mtuykw0b-1hywo",
+      "timestamp": "2026-09-10T03:19:24.683Z"
+    },
+    {
+      "actionType": "ASSIGN_SECONDARY",
+      "jobId": "pge-ops-07",
+      "jobTitle": "QC Produk Kompleks",
+      "toEmployeeId": "emp-linda",
+      "toEmployeeName": "Linda Novianti",
+      "slotType": "secondary",
+      "details": "Penetapan \"QC Produk Kompleks\" (OPS-07) kepada Linda Novianti sebagai Tugas Sekunder.",
+      "id": "log-mtuykr62-tq8pq",
+      "timestamp": "2026-09-10T03:19:18.410Z"
+    },
+    {
+      "actionType": "ASSIGN_MAIN",
+      "jobId": "pge-ops-03",
+      "jobTitle": "Staf Gudang",
+      "toEmployeeId": "emp-titania",
+      "toEmployeeName": "Titania Susilowati Fauziyah",
+      "slotType": "main",
+      "details": "Penetapan \"Staf Gudang\" (OPS-03) kepada Titania Susilowati Fauziyah sebagai Tugas Utama.",
+      "id": "log-mtuykgju-5sjak",
+      "timestamp": "2026-09-10T03:19:04.650Z"
+    },
+    {
+      "actionType": "ASSIGN_MAIN",
+      "jobId": "pge-ops-02",
+      "jobTitle": "Kepala Gudang",
+      "toEmployeeId": "emp-linda",
+      "toEmployeeName": "Linda Novianti",
+      "slotType": "main",
+      "details": "Penetapan \"Kepala Gudang\" (OPS-02) kepada Linda Novianti sebagai Tugas Utama.",
+      "id": "log-mtuykbrm-yvgr8",
+      "timestamp": "2026-09-10T03:18:58.450Z"
+    },
+    {
+      "actionType": "ASSIGN_MAIN",
+      "jobId": "pge-ops-01",
+      "jobTitle": "Kepala Operasional",
+      "toEmployeeId": "emp-wahyu",
+      "toEmployeeName": "Wahyu Albino",
+      "slotType": "main",
+      "details": "Penetapan \"Kepala Operasional\" (OPS-01) kepada Wahyu Albino sebagai Tugas Utama.",
+      "id": "log-mtuyk876-smsh8",
+      "timestamp": "2026-09-10T03:18:53.826Z"
+    },
+    {
+      "actionType": "ASSIGN_SECONDARY",
+      "jobId": "pge-fat-03",
+      "jobTitle": "Cost Control Officer",
+      "toEmployeeId": "emp-riska-amelia",
+      "toEmployeeName": "Riska Amelia",
+      "slotType": "secondary",
+      "details": "Penetapan \"Cost Control Officer\" (FAT-03) kepada Riska Amelia sebagai Tugas Sekunder.",
+      "id": "log-mtuyjj6a-eyfd1",
+      "timestamp": "2026-09-10T03:18:21.394Z"
+    },
+    {
+      "actionType": "ASSIGN_SECONDARY",
+      "jobId": "pge-fat-04",
+      "jobTitle": "Staf Purchasing",
+      "toEmployeeId": "emp-riska-amelia",
+      "toEmployeeName": "Riska Amelia",
+      "slotType": "secondary",
+      "details": "Penetapan \"Staf Purchasing\" (FAT-04) kepada Riska Amelia sebagai Tugas Sekunder.",
+      "id": "log-mtuyjepe-iu9mk",
+      "timestamp": "2026-09-10T03:18:15.602Z"
+    },
+    {
+      "actionType": "ASSIGN_SECONDARY",
+      "jobId": "pge-fat-01",
+      "jobTitle": "Finance Officer",
+      "toEmployeeId": "emp-riska-amelia",
+      "toEmployeeName": "Riska Amelia",
+      "slotType": "secondary",
+      "details": "Penetapan \"Finance Officer\" (FAT-01) kepada Riska Amelia sebagai Tugas Sekunder.",
+      "id": "log-mtuyjchu-bdf6q",
+      "timestamp": "2026-09-10T03:18:12.738Z"
+    },
+    {
+      "actionType": "ASSIGN_MAIN",
+      "jobId": "pge-fat-02",
+      "jobTitle": "Accounting Officer",
+      "toEmployeeId": "emp-riska-amelia",
+      "toEmployeeName": "Riska Amelia",
+      "slotType": "main",
+      "details": "Penetapan \"Accounting Officer\" (FAT-02) kepada Riska Amelia sebagai Tugas Utama.",
+      "id": "log-mtuyjane-624i6",
+      "timestamp": "2026-09-10T03:18:10.346Z"
+    },
+    {
+      "actionType": "ASSIGN_MAIN",
+      "jobId": "pge-fat-01",
+      "jobTitle": "Finance Officer",
+      "toEmployeeId": "emp-riska-amelia",
+      "toEmployeeName": "Riska Amelia",
+      "slotType": "main",
+      "details": "Penetapan \"Finance Officer\" (FAT-01) kepada Riska Amelia sebagai Tugas Utama.",
+      "id": "log-mtuyj8qa-mwjvv",
+      "timestamp": "2026-09-10T03:18:07.858Z"
+    },
+    {
+      "actionType": "UNASSIGN",
+      "jobId": "pge-ops-01",
+      "jobTitle": "Kepala Operasional",
+      "fromEmployeeId": "emp-wahyu",
+      "fromEmployeeName": "Wahyu Albino",
+      "slotType": "secondary",
+      "details": "Pelepasan tanggung jawab \"Kepala Operasional\" dari Wahyu Albino.",
+      "id": "log-mtuyehhv-dpvlj",
+      "timestamp": "2026-09-10T03:14:25.939Z"
+    },
+    {
+      "actionType": "ASSIGN_SECONDARY",
+      "jobId": "pge-ops-01",
+      "jobTitle": "Kepala Operasional",
+      "toEmployeeId": "emp-wahyu",
+      "toEmployeeName": "Wahyu Albino",
+      "slotType": "secondary",
+      "details": "Penetapan \"Kepala Operasional\" (OPS-01) kepada Wahyu Albino sebagai Tugas Sekunder.",
+      "id": "log-mtuyegph-vjqaa",
+      "timestamp": "2026-09-10T03:14:24.917Z"
+    },
+    {
+      "actionType": "UNASSIGN",
+      "jobId": "pge-ops-01",
+      "jobTitle": "Kepala Operasional",
+      "fromEmployeeId": "emp-wahyu",
+      "fromEmployeeName": "Wahyu Albino",
+      "slotType": "secondary",
+      "details": "Pelepasan tanggung jawab \"Kepala Operasional\" dari Wahyu Albino.",
+      "id": "log-mtuyegjh-ivrpr",
+      "timestamp": "2026-09-10T03:14:24.701Z"
+    },
+    {
+      "actionType": "ASSIGN_SECONDARY",
+      "jobId": "pge-ops-01",
+      "jobTitle": "Kepala Operasional",
+      "toEmployeeId": "emp-wahyu",
+      "toEmployeeName": "Wahyu Albino",
+      "slotType": "secondary",
+      "details": "Penetapan \"Kepala Operasional\" (OPS-01) kepada Wahyu Albino sebagai Tugas Sekunder.",
+      "id": "log-mtuyeg0r-i0gwj",
+      "timestamp": "2026-09-10T03:14:24.027Z"
+    },
+    {
+      "actionType": "UNASSIGN",
+      "jobId": "pge-ops-01",
+      "jobTitle": "Kepala Operasional",
+      "fromEmployeeId": "emp-wahyu",
+      "fromEmployeeName": "Wahyu Albino",
+      "slotType": "secondary",
+      "details": "Pelepasan tanggung jawab \"Kepala Operasional\" dari Wahyu Albino.",
+      "id": "log-mtuyec8c-8c012",
+      "timestamp": "2026-09-10T03:14:19.116Z"
+    },
+    {
+      "actionType": "ASSIGN_SECONDARY",
+      "jobId": "pge-ops-01",
+      "jobTitle": "Kepala Operasional",
+      "toEmployeeId": "emp-wahyu",
+      "toEmployeeName": "Wahyu Albino",
+      "slotType": "secondary",
+      "details": "Penetapan \"Kepala Operasional\" (OPS-01) kepada Wahyu Albino sebagai Tugas Sekunder.",
+      "id": "log-mtuyebt0-jfy2x",
+      "timestamp": "2026-09-10T03:14:18.564Z"
+    },
+    {
+      "actionType": "UNASSIGN",
+      "jobId": "pge-ops-01",
+      "jobTitle": "Kepala Operasional",
+      "fromEmployeeId": "emp-wahyu",
+      "fromEmployeeName": "Wahyu Albino",
+      "slotType": "secondary",
+      "details": "Pelepasan tanggung jawab \"Kepala Operasional\" dari Wahyu Albino.",
+      "id": "log-mtuyebdo-3jfsp",
+      "timestamp": "2026-09-10T03:14:18.012Z"
+    },
+    {
+      "actionType": "ASSIGN_SECONDARY",
+      "jobId": "pge-ops-01",
+      "jobTitle": "Kepala Operasional",
+      "toEmployeeId": "emp-wahyu",
+      "toEmployeeName": "Wahyu Albino",
+      "slotType": "secondary",
+      "details": "Penetapan \"Kepala Operasional\" (OPS-01) kepada Wahyu Albino sebagai Tugas Sekunder.",
+      "id": "log-mtuyea2s-ozu1b",
+      "timestamp": "2026-09-10T03:14:16.324Z"
+    },
+    {
+      "id": "log-mtuulj48-3qwjs",
+      "timestamp": "2026-09-10T01:27:56.168Z",
+      "actionType": "RESET_TEMPLATE",
+      "details": "Inisialisasi sistem dengan struktur Analisis Jabatan & Job Descriptions CV Pusat Grosir Eceran (PGE)."
+    }
+  ],
+  "activeTemplateKey": "pge-structure"
+}

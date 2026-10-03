@@ -1,0 +1,483 @@
+{
+  "FAT-01": {
+    "education": "S1 / D4 Akuntansi, Keuangan, atau Manajemen Keuangan",
+    "experience": "Min. 2-3 tahun di bidang Treasury, Finance & Manajemen Kas Perusahaan Retail/Grosir",
+    "technical": [
+      "Cash Flow Forecasting",
+      "Budget Variance Analysis",
+      "Accurate Online / ERP",
+      "Microsoft Excel Lanjutan (VLOOKUP, Pivot, Modeling)",
+      "Rekonsiliasi Bank"
+    ],
+    "softSkills": [
+      "Integritas tinggi",
+      "Analitis & cermat terhadap angka",
+      "Komunikasi asertif ke pimpinan",
+      "Manajemen risiko likuiditas"
+    ],
+    "special": "Bertanggung jawab penuh atas jadwal jatuh tempo pembayaran vendor dan penutupan kas mingguan"
+  },
+  "FAT-02": {
+    "education": "Min. D3 / S1 Akuntansi atau Perpajakan",
+    "experience": "Min. 2 tahun pengalaman menyusun Jurnal, Buku Besar, dan Laporan Keuangan Neraca/Laba Rugi",
+    "technical": [
+      "Accurate ERP Accounting",
+      "Pencatatan Standar Akuntansi",
+      "Rekonsiliasi Marketplace & Bank",
+      "Administrasi Pajak (PPh & PPN)",
+      "Pengarsipan Dokumen Transaksi"
+    ],
+    "softSkills": [
+      "Ketelitian tingkat tinggi (Zero Error)",
+      "Objektivitas & independensi",
+      "Kemampuan investigasi selisih data"
+    ],
+    "special": "Terbiasa bekerja dengan ritme closing bulanan ketat (maks. tanggal 5 setiap bulan)"
+  },
+  "FAT-03": {
+    "education": "Min. D3 / S1 Akuntansi Manajemen, Manajemen Operasional, atau Teknik Industri",
+    "experience": "Min. 2 tahun di bidang Analisis Biaya Produksi (HPP), Audit Stock/Inventory, atau Cost Accounting FMCG",
+    "technical": [
+      "Perhitungan HPP Riil vs Standar",
+      "Bill of Materials (BOM) Analysis",
+      "Waste & Yield Ratio Monitoring",
+      "Odoo & Accurate Integration",
+      "Analisis Margin Penjualan"
+    ],
+    "softSkills": [
+      "Sikap kritis dan solutif",
+      "Negosiasi efisiensi dengan tim produksi",
+      "Orientasi penghematan biaya (Cost-Conscious)"
+    ],
+    "special": "Rutin melakukan observasi langsung ke lini workshop untuk memverifikasi scrap dan pemborosan material"
+  },
+  "FAT-04": {
+    "education": "Min. SMK / D3 / S1 Manajemen Logistik, Administrasi Bisnis, atau setara",
+    "experience": "Min. 1 tahun di bidang pengadaan bahan baku konveksi/grosir (kain, benang, tinta, packaging)",
+    "technical": [
+      "Purchase Order (PO) Management",
+      "Vendor Price Negotiation",
+      "Lead Time & Delivery Tracking",
+      "Input Odoo Purchasing",
+      "Sistem Evaluasi Supplier"
+    ],
+    "softSkills": [
+      "Keterampilan tawar-menawar",
+      "Responsif & proaktif mencari supplier alternatif",
+      "Ketahanan terhadap tekanan deadline"
+    ],
+    "special": "Memiliki jaringan supplier bahan baku percetakan/tekstil dan siap kunjungan vendor bila diperlukan"
+  },
+  "OPS-01": {
+    "education": "Min. D3 / S1 Teknik Industri, Manajemen Operasional, atau bidang terkait",
+    "experience": "Min. 3-5 tahun pengalaman supervisi produksi manufaktur/garmen skala menengah",
+    "technical": [
+      "Production Planning & Inventory Control (PPIC)",
+      "Capacity & Bottleneck Management",
+      "SOP & Quality Assurance",
+      "Odoo Manufacturing / ERP",
+      "Penyusunan Logsheet Produksi"
+    ],
+    "softSkills": [
+      "Kepemimpinan tegas & mengayomi",
+      "Pengambilan keputusan cepat satu pintu",
+      "Penyelesaian konflik operasional",
+      "Komunikasi lintas divisi"
+    ],
+    "special": "Bersedia stand-by saat peak season dan memegang otoritas keputusan perbaikan/tunda alur kerja"
+  },
+  "OPS-02": {
+    "education": "Min. SMA/SMK / D3 Logistik, Pergudangan, atau Manajemen",
+    "experience": "Min. 2-3 tahun mengelola gudang bahan baku dan barang jadi (WMS)",
+    "technical": [
+      "Warehouse Management System (WMS)",
+      "Manajemen Tata Letak Gudang (5R)",
+      "Metode FIFO / FEFO",
+      "Stock Opname & Rekonsiliasi Selisih",
+      "Penanganan Surat Jalan & Kartu Stok"
+    ],
+    "softSkills": [
+      "Ketegasan terhadap keamanan stok",
+      "Disiplin alur serah terima barang",
+      "Koordinasi tim lapangan"
+    ],
+    "special": "Bertanggung jawab 100% atas akurasi fisik stok vs sistem dan kepatuhan K3 keselamatan kerja gudang"
+  },
+  "OPS-03": {
+    "education": "Min. SMA / SMK sederajat",
+    "experience": "Pengalaman 1 tahun di bagian gudang ekspedisi / grosir / logistik",
+    "technical": [
+      "Picking, Packing & Labeling Barang",
+      "Fisik Barang Datang & Pengecekan Nota",
+      "Bongkar Muat Barang Grosir",
+      "Pencatatan Kartu Stok Manual/Digital"
+    ],
+    "softSkills": [
+      "Ketahanan fisik prima",
+      "Kecepatan dan ketelitian menghitung barang",
+      "Jujur dan dapat dipercaya"
+    ],
+    "special": "Mampu mengangkat beban kerja gudang hingga 20-25 kg dan bekerja dalam shift operasional"
+  },
+  "OPS-04": {
+    "education": "Min. D3 / SMA/SMK Administrasi Perkantoran, Manajemen, atau Teknik Informatika",
+    "experience": "Min. 1-2 tahun sebagai Admin Produksi / Operasional di perusahaan manufaktur/retail",
+    "technical": [
+      "Odoo ERP (Modul Manufacturing & Inventory)",
+      "Google Sheets / Excel (VLOOKUP, IF, Pivot)",
+      "Input Bill of Materials (BOM)",
+      "Pembuatan SPK & Logsheet Produksi",
+      "Rekapitulasi Hasil Rework"
+    ],
+    "softSkills": [
+      "Ketelitian data tingkat tinggi (Zero Typing Error)",
+      "Terorganisir dalam pengarsipan",
+      "Koordinasi proaktif antar-operator"
+    ],
+    "special": "Terbiasa mengelola antrean pekerjaan harian secara real-time dan memastikan data Odoo selalu up-to-date"
+  },
+  "OPS-05": {
+    "education": "Min. SMK / D3 Administrasi, Garment, atau setara",
+    "experience": "Min. 1 tahun di administrasi alur potong garmen/tekstil",
+    "technical": [
+      "Penyusunan SPK Potong",
+      "Penghitungan Kebutuhan Yard/Meter Bahan",
+      "Pemberian Nomor Bundle & Labeling Pola",
+      "Input Laporan Harian Potong ke Spreadsheet"
+    ],
+    "softSkills": [
+      "Kerapian dokumentasi pola",
+      "Ketelitian kode order",
+      "Komunikasi lancar dengan Operator Potong"
+    ],
+    "special": "Memastikan tidak ada order yang tercampur atau tertukar sebelum diserahkan ke proses cetak/jahit"
+  },
+  "OPS-06": {
+    "education": "Min. SMA/SMK sederajat",
+    "experience": "Min. 1 tahun di Quality Control garmen, sablon, atau percetakan",
+    "technical": [
+      "Inspeksi Cacat Jahit & Noda Kain",
+      "Pengecekan Toleransi Ukuran (Size Spec)",
+      "Pencatatan Lembar Kendali Mutu",
+      "Pemisahan Produk Reject vs Rework"
+    ],
+    "softSkills": [
+      "Mata teliti dan detail",
+      "Objektivitas tanpa kompromi",
+      "Konsistensi menjaga standar"
+    ],
+    "special": "Standar ketat terhadap produk lolos kirim; mampu menginspeksi ratusan unit per hari secara konsisten"
+  },
+  "OPS-07": {
+    "education": "Min. SMK Tekstil / D3 Desain Produk / Pengalaman Kerja Teruji",
+    "experience": "Min. 2 tahun QC untuk produk pesanan custom, bordir bertingkat, atau sablon multi-layer",
+    "technical": [
+      "Audit Finishing Produk Custom Rumit",
+      "Uji Ketahanan Sablon & Jahitan Sambung",
+      "Penyusunan Action Plan Penurunan Rework",
+      "Kalibrasi Standar Sampel Gold Master"
+    ],
+    "softSkills": [
+      "Komunikasi solutif ke tim produksi",
+      "Analisis akar penyebab cacat (Root Cause)",
+      "Ketegasan mutu"
+    ],
+    "special": "Memiliki wewenang menghentikan alur jika ditemukan cacat massal pada batch produksi custom"
+  },
+  "OPS-08": {
+    "education": "Min. SMK Tata Busana / D3 Desain Mode / Pengalaman Pola Jahit",
+    "experience": "Min. 2-3 tahun membuat pola, sampel baju/tas/pouch, dan teknik pecah pola konveksi",
+    "technical": [
+      "Pembuatan Pola Master & Grading",
+      "Uji Efisiensi Pemotongan Bahan (Marker)",
+      "Penentuan Standar Waktu Jahit (SMV)",
+      "Penyusunan Tech Pack Produk"
+    ],
+    "softSkills": [
+      "Kreatif dan inovatif",
+      "Problem solving kesulitan jahit",
+      "Kemauan uji coba prototipe berulang kali"
+    ],
+    "special": "Menghasilkan sampel yang siap diproduksi massal dengan efisiensi bahan dan jahitan tertinggi"
+  },
+  "OPS-09": {
+    "education": "Min. D3 / S1 Desain Komunikasi Visual (DKV), Multimedia, atau Desain Grafis",
+    "experience": "Min. 2 tahun pembuatan layout desain cetak, vector apparel, dan mockup produk digital",
+    "technical": [
+      "Adobe Illustrator & Photoshop",
+      "CorelDRAW",
+      "Color Separation Sablon/Printing",
+      "Mockup 3D / Katalog Digital",
+      "Penyiapan File Siap Cetak (Rip File)"
+    ],
+    "softSkills": [
+      "Rasa estetika tinggi",
+      "Kecepatan eksekusi desain",
+      "Responsif terhadap tren pasar visual"
+    ],
+    "special": "Memahami batasan mesin cetak (resolusi, gamut warna CMYK vs RGB, dan media bahan)"
+  },
+  "OPS-10": {
+    "education": "Min. SMA/SMK",
+    "experience": "Min. 1-2 tahun mengoperasikan mesin potong kain vertikal (Straight Knife) atau laser cutting",
+    "technical": [
+      "Pengoperasian Mesin Potong Kain",
+      "Gelar Bahan Sesuai Pola / Marker",
+      "Kerapian Potongan Sisi & Notch",
+      "Pemeliharaan Pisau Mesin Potong"
+    ],
+    "softSkills": [
+      "Konsentrasi tinggi saat bekerja",
+      "Kepatuhan penuh K3 keselamatan tangan",
+      "Ketahanan fisik"
+    ],
+    "special": "Wajib menggunakan sarung tangan pelindung baja (safety glove) dan menjaga toleransi potong < 2mm"
+  },
+  "OPS-11": {
+    "education": "Min. SMA/SMK sederajat",
+    "experience": "Fresh graduate / pengalaman 6 bulan di konveksi",
+    "technical": [
+      "Penggelaran Kain Manual/Mesin",
+      "Pemberian Nomor Bundle & Ikat Potongan",
+      "Pembersihan Area Kerja Potong",
+      "Bantu Pemindahan Roll Bahan"
+    ],
+    "softSkills": [
+      "Cekatan dan gesit",
+      "Kemauan belajar teknik potong",
+      "Disiplin waktu"
+    ],
+    "special": "Kesiapan fisik membantu penggelaran roll kain panjang dan pengikatan bundle"
+  },
+  "OPS-12": {
+    "education": "Min. SMK Grafika / Mesin / sederajat",
+    "experience": "Min. 1-2 tahun mengoperasikan mesin digital printing tekstil / DTF / Sublimasi",
+    "technical": [
+      "Pengoperasian Mesin Cetak DTF / Sublim",
+      "Pengaturan Profil Warna & RIP Software",
+      "Perawatan Harian Print Head & Tinta",
+      "Pengeringan & Curing Hasil Cetak"
+    ],
+    "softSkills": [
+      "Ketelitian warna (Color Matching)",
+      "Disiplin pemeliharaan mesin",
+      "Ketahanan kerja target harian"
+    ],
+    "special": "Siap bekerja di lingkungan mesin cetak bertemperatur hangat dan mematuhi jadwal cleaning berkala"
+  },
+  "OPS-13": {
+    "education": "Min. SMA/SMK sederajat",
+    "experience": "Min. 1 tahun di produksi tali lanyard, gantungan kunci, atau aksesoris tali",
+    "technical": [
+      "Pemasangan Kait, Stopper, & Finishing Lanyard",
+      "Press Transfer Sablon Tali",
+      "Pengukuran Presisi Panjang Tali",
+      "Packing Satuan Rapi"
+    ],
+    "softSkills": [
+      "Keterampilan jari (Hand Dexterity)",
+      "Kecepatan perakitan unit per menit",
+      "Ketelitian detail"
+    ],
+    "special": "Mampu memenuhi target output minimal harian tanpa cacat aksesoris terbalik"
+  },
+  "OPS-14": {
+    "education": "Min. SMA/SMK sederajat",
+    "experience": "Min. 1 tahun pengoperasian mesin heat press kain/sablon",
+    "technical": [
+      "Pengaturan Suhu, Waktu, & Tekanan Heat Press",
+      "Pencegahan Gosong & Bayang (Ghosting)",
+      "Peletakan Presisi Posisi Sablon",
+      "Perawatan Teflon & Mat"
+    ],
+    "softSkills": [
+      "Konsistensi ritme kerja",
+      "Kewaspadaan terhadap permukaan panas",
+      "Disiplin SOP"
+    ],
+    "special": "Kepatuhan penuh pada K3 suhu tinggi dan ketelitian posisi cetak di atas pakaian/tas"
+  },
+  "OPS-15": {
+    "education": "Min. SMK Listrik / Mesin / sederajat",
+    "experience": "Min. 1-2 tahun pengoperasian mesin press HF (High Frequency) / Emboss thermoforming",
+    "technical": [
+      "Mesin High Frequency Welding",
+      "Penyetelan Arus Daya & Moulding Cetakan",
+      "Pencegahan Overheating Material Kulit Sintetis/PVC",
+      "Pemeriksaan Kekuatan Rekatan"
+    ],
+    "softSkills": [
+      "Pemahaman teknis mekanik dasar",
+      "Ketelitian setting mesin",
+      "Kehati-hatian operasional"
+    ],
+    "special": "Kepatuhan prosedur keselamatan kelistrikan tegangan tinggi dan pemeliharaan cetakan mould"
+  },
+  "OPS-16": {
+    "education": "Min. SMK / SMA sederajat",
+    "experience": "Min. 1-2 tahun mengoperasikan mesin bordir komputer multi-head (Barudan/Tajima/sejenisnya)",
+    "technical": [
+      "Setting Mesin Bordir Komputer",
+      "Penggantian Jarum, Spool, & Benang Warna",
+      "Penanganan Benang Putus Cepat",
+      "Penarikan File Bordir (DST/PES) ke Mesin"
+    ],
+    "softSkills": [
+      "Ketelitian mencocokkan kode benang",
+      "Kecepatan re-threading",
+      "Konsentrasi tinggi"
+    ],
+    "special": "Mampu mengawasi jalannya bordir multi-head secara serentak dan mencegah cacat kain berkerut"
+  },
+  "OPS-17": {
+    "education": "Min. SMA/SMK sederajat / kursus menjahit",
+    "experience": "Min. 1-2 tahun menjahit cepat (High Speed Sewing Machine) di konveksi/garmen",
+    "technical": [
+      "Mesin Jahit Jarum 1 High Speed",
+      "Mesin Obras & Overdeck",
+      "Teknik Menjahit Lurus, Melengkung, & Pasang Resleting",
+      "Pemasangan Label Merek Rapi"
+    ],
+    "softSkills": [
+      "Kerapian stik jahitan",
+      "Kecepatan kerja (Output Pieces/Jam)",
+      "Ketelitian kampuh"
+    ],
+    "special": "Konsistensi jarak stik jahitan (minimal 8-10 stik per inch) dan menjaga kebersihan pakaian dari minyak mesin"
+  },
+  "OPS-18": {
+    "education": "Min. SMA/SMK sederajat",
+    "experience": "Fresh graduate terbuka atau pengalaman helper umum",
+    "technical": [
+      "Trimming Sisa Benang (Buang Benang)",
+      "Lipat, Gosok Uap, & Packaging Plastik",
+      "Distribusi Antar-Meja Operator",
+      "Pembersihan Area Produksi"
+    ],
+    "softSkills": [
+      "Rajin, jujur, dan tanggap",
+      "Kerja sama tim",
+      "Kecepatan tangan"
+    ],
+    "special": "Kesiapan mobilitas fisik di ruang workshop dan menjaga kerapian susunan barang siap QC"
+  },
+  "SALES-01": {
+    "education": "Min. D3 / S1 Manajemen, Komunikasi, Pemasaran, atau setara",
+    "experience": "Min. 2-3 tahun di bidang Sales B2B / B2C / Retail Fashion & Custom Merchandise",
+    "technical": [
+      "Sales Leadership & KPI Monitoring",
+      "Closing Pesanan Custom Bernilai Tinggi",
+      "CRM & Manajemen WhatsApp Business",
+      "Penanganan Komplain & Escalation Policy",
+      "Penyusunan Target Penjualan Tim"
+    ],
+    "softSkills": [
+      "Kemampuan memotivasi tim",
+      "Negosiasi tingkat lanjut",
+      "Kecerdasan emosional tinggi",
+      "Orientasi target omzet"
+    ],
+    "special": "Memiliki jam terbang closing deal besar dan siap membimbing tim sales mencapai target bulanan"
+  },
+  "SALES-02": {
+    "education": "Min. D3 / S1 Komunikasi, Hubungan Masyarakat, atau Manajemen",
+    "experience": "Min. 1-2 tahun di bidang Customer Care, CRM, atau After-Sales Service",
+    "technical": [
+      "Sistem CRM Pelanggan",
+      "Program Retensi & Repeat Order",
+      "Resolusi Keluhan Pelanggan Berisiko",
+      "Survey Kepuasan Pelanggan (CSAT / NPS)",
+      "Follow Up Penawaran Khusus"
+    ],
+    "softSkills": [
+      "Empati tinggi & keramahan tulus",
+      "Kemampuan negosiasi solusi win-win",
+      "Kesabaran dalam krisis"
+    ],
+    "special": "Fokus menjaga reputasi kepuasan toko dan mengubah komplain menjadi peluang pesanan berulang"
+  },
+  "SALES-03": {
+    "education": "Min. SMA/SMK / D3 Administrasi Bisnis, Pemasaran, atau setara",
+    "experience": "Min. 1 tahun sebagai Admin Tokopedia / Shopee / TikTok Shop / WhatsApp Sales",
+    "technical": [
+      "Fast Respon Chat Marketplace & WhatsApp",
+      "Pengelolaan Pesanan & Cetak Resi Label",
+      "Koordinasi Jadwal Kirim dengan Gudang",
+      "Input Data Order ke Odoo / Spreadsheet",
+      "SOP Pelayanan Pelanggan Ramah"
+    ],
+    "softSkills": [
+      "Kemampuan mengetik cepat & akurat",
+      "Bahasa persuasif ramah",
+      "Manajemen waktu pesanan ekspres"
+    ],
+    "special": "Disiplin menjaga SLA waktu balas chat di bawah 5 menit pada jam operasional"
+  },
+  "SALES-04": {
+    "education": "Min. D3 / S1 Pemasaran, E-Commerce, Bisnis Digital, atau setara",
+    "experience": "Min. 1-2 tahun mengelola official store marketplace dengan omzet teruji",
+    "technical": [
+      "Optimasi Marketplace SEO & Judul Produk",
+      "Manajemen Iklan Berbayar (Shopee Ads / Tokopedia Ads)",
+      "Partisipasi Kampanye Tanggal Kembar (Mega Campaign)",
+      "Analisis Traffic, Conversion Rate & ROAS",
+      "Pengelolaan Stok Multi-Channel"
+    ],
+    "softSkills": [
+      "Analitis & berorientasi data",
+      "Cepat tanggap terhadap update algoritma marketplace",
+      "Eksperimentasi kreatif"
+    ],
+    "special": "Bertanggung jawab atas efisiensi budget iklan (ROAS) dan kenaikan visibilitas produk toko"
+  },
+  "MKT-01": {
+    "education": "Min. S1 Pemasaran, Komunikasi, Manajemen Bisnis, atau DKV",
+    "experience": "Min. 3 tahun di bidang Strategic Marketing, Branding, atau Agensi Periklanan",
+    "technical": [
+      "Marketing Campaign Strategy & Budgeting",
+      "Kajian Tren Pasar & Segmentasi Pelanggan",
+      "Pengawasan Kalender Konten Multi-Platform",
+      "Analisis Metrik Pemasaran (CAC, LTV, ROI)",
+      "Kolaborasi Influencer & Event"
+    ],
+    "softSkills": [
+      "Visi strategis & kepemimpinan kreatif",
+      "Presentasi persuasif",
+      "Manajemen tim kreatif multi-disiplin"
+    ],
+    "special": "Memimpin arah visual brand PGE agar relevan di pasar grosir dan eceran nasional"
+  },
+  "MKT-02": {
+    "education": "Min. D3 / S1 Ilmu Komunikasi, Desain, Periklanan, atau setara",
+    "experience": "Min. 1-2 tahun mengelola akun bisnis Instagram, TikTok, & YouTube Shorts",
+    "technical": [
+      "Copywriting Menarik & Hook Formula",
+      "Algoritma TikTok & Instagram Reels",
+      "Manajemen Kalender Posting Harian",
+      "Analisis Insight Akun & Engagement Rate",
+      "Live Streaming Commerce"
+    ],
+    "softSkills": [
+      "Kreativitas tanpa henti",
+      "Mengikuti tren pop culture & sound viral",
+      "Interaksi ramah dengan followers"
+    ],
+    "special": "Mampu tampil di depan kamera bila dibutuhkan dan cepat mengadaptasi tren harian"
+  },
+  "MKT-03": {
+    "education": "Min. SMK Multimedia / D3 DKV / Broadcasting / Sinematografi",
+    "experience": "Min. 1-2 tahun memproduksi video pendek, foto produk katalog, dan editing video",
+    "technical": [
+      "Videografi & Fotografi Produk Apparel",
+      "Editing Video (CapCut, Premiere Pro, After Effects)",
+      "Pencahayaan Studio & Setting Angle",
+      "Color Grading & Audio Mixing Dasar"
+    ],
+    "softSkills": [
+      "Mata estetika visual kuat",
+      "Cekatan mengambil momen behind-the-scenes",
+      "Kerja sama solid dengan tim Sales"
+    ],
+    "special": "Mampu memproduksi konten video berkualitas tinggi dengan ritme harian yang konsisten"
+  }
+}
